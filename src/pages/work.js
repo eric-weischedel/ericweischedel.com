@@ -10,7 +10,6 @@ const WorkPage = () => (
     <SEO title="My Work" />
     <PageTitle title="My Work" />
     <p>Hoodat: Mobile app for remembering names</p>
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 

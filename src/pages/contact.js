@@ -12,7 +12,6 @@ const ContactPage = () => (
     <p>Email: yshuttle@gmail.com</p>
     <p>Phone: 717-380-2757</p>
     <p>LinkedIn: in/eric-weischedel/</p>
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
