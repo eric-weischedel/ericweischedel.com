@@ -24,7 +24,7 @@ class IndexTitle extends React.Component {
   getRandomTitle() {
     var newTitle = this.state.title;
     while (newTitle === this.state.title) {
-      newTitle = titles[Math.floor(Math.random() * (titles.length - 1))];
+      newTitle = titles[Math.floor(Math.random() * (titles.length))];
     }
     return newTitle;
   }
@@ -50,44 +50,5 @@ class IndexTitle extends React.Component {
     )
   }
 }
-
-// const IndexTitle = () => {
-//   const [title, setTitle] = useState("Problem Solver");
-//   const [opacity, setOpacity] = useState(1);
-//   function getRandomTitle() {
-//     var newTitle = title;
-//     while (newTitle === title) {
-//       newTitle = titles[Math.floor(Math.random() * (titles.length - 1))];
-//       console.log(
-//         `title: ${title} \n newTitle: ${newTitle} \n newTitle === title: ${
-//           newTitle === title
-//         }`
-//       )
-//     }
-//     return newTitle;
-//   }
-//   function sleep(ms) {
-//     return new Promise(resolve => window.setTimeout(resolve, ms))
-//   }
-//   async function changeTitle() {
-//     setOpacity(0);
-//     await sleep(1000);
-//     const newTitle = getRandomTitle();
-//     setTitle(newTitle);
-//     setOpacity(1);
-//   }
-//   useEffect(() => {
-//     const interval = setInterval(() => {
-//       changeTitle()
-//     }, 4000)
-//     return () => clearInterval(interval)
-//   }, []);
-//   return (
-//     <h1 onClick={changeTitle} className="title">
-//       Software Developer
-//       <br />& <span style={{opacity: opacity}}>{title}</span>
-//     </h1>
-//   )
-// };
 
 export default IndexTitle
