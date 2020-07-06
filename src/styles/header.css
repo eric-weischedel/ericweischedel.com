@@ -25,3 +25,9 @@ header li a {
 header li a:hover {
   color: blue;
 }
+
+@media only screen and (max-width: 768px) {
+  header ul {
+    display: none;
+  }
+}
