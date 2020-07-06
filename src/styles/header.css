@@ -1,14 +1,16 @@
-
-.header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #aaa;
+  border-bottom: 2px solid #ccc;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 3em;
+  padding-bottom: 1em;
 }
 
-header h1 {
-  margin: 0;
-  padding: 0;
+header h1 a {
+  font-family: 'Roboto-Bold';
 }
 
 header ul {
@@ -17,8 +19,9 @@ header ul {
 }
 
 header li a {
-  margin-right: 2em;
+  margin-right: 3em;
   text-decoration: none;
+  font-family: 'Roboto-Bold';
   color: black;
 }
 
