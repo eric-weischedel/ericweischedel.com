@@ -1,0 +1,11 @@
+.title {
+  font-size: 5em;
+  font-family: 'Roboto-Black';
+  margin-top: 1em;
+  transition: opacity 0.5s;
+}
+
+span {
+  font-family: 'Roboto-Black';
+  transition: opacity 1s
+}

@@ -3,7 +3,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 3em;
+  margin-top: 6em;
   padding-top: 15em;
   padding-bottom: 15em;
   background-color: black;
@@ -32,5 +32,5 @@ footer p {
   color: white;
   font-size: 0.75em;
   font-family: 'Roboto-Regular';
-  margin-bottom: 0.5em;
+  margin: 0.75em;
 }

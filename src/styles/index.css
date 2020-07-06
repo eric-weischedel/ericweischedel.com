@@ -1,0 +1,19 @@
+button {
+  margin-top: 4em;
+  border: 1px solid #ccc;
+  background: linear-gradient(#446DFF, #2655ff);
+  color: white;
+  padding: 1.25em 3em 1.25em 3em;
+  font-family: 'Roboto-Bold';
+  font-size: 1.25em;
+  border-radius: 0.5em;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #5278ff;
+}
+
+p {
+  margin-top: 3em;
+}
