@@ -3,11 +3,12 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import PageTitle from "../components/pageTitle"
 
 const WorkPage = () => (
   <Layout>
-    <SEO title="Contact Eric Weischedel" />
-    <h1>My Work</h1>
+    <SEO title="My Work" />
+    <PageTitle title="My Work" />
     <p>Hoodat: Mobile app for remembering names</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
