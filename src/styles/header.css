@@ -2,7 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 1px solid #ccc;
   max-width: 1440px;
   margin: 0 auto;
   padding-top: 3em;
@@ -10,7 +10,14 @@ header {
 }
 
 header h1 a {
-  font-family: 'Roboto-Bold';
+  font-family: 'Roboto-Black';
+  text-decoration: none;
+  font-size: smaller;
+  color: #666
+}
+
+header h1 a:hover {
+  color: black
 }
 
 header ul {
@@ -19,14 +26,16 @@ header ul {
 }
 
 header li a {
-  margin-right: 3em;
+  margin-right: 1em;
+  padding: 0.5em 1em 0.5em 1em;
   text-decoration: none;
-  font-family: 'Roboto-Bold';
-  color: black;
+  font-family: 'Roboto-Medium';
+  border-radius: 1em;
+  color: #777
 }
 
 header li a:hover {
-  color: blue;
+  background-color: #F3F3F3;
 }
 
 @media only screen and (max-width: 768px) {

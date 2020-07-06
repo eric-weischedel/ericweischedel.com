@@ -4,7 +4,8 @@ import React from "react"
 import "../styles/header.css"
 
 const activeLinkStyles = {
-  color: 'blue'
+  color: 'blue',
+  fontFamily: 'Roboto-Black'
 }
 
 const Header = ({ siteTitle }) => (
@@ -12,10 +13,6 @@ const Header = ({ siteTitle }) => (
     <h1>
       <Link
         to="/"
-        style={{
-          color: `black`,
-          textDecoration: `none`,
-        }}
       >
         {siteTitle}
       </Link>
