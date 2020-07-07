@@ -1,20 +1,32 @@
 import React from "react"
 import { Link } from "gatsby"
 import "../styles/BottomNav.css"
+import { Briefcase, Smile, Send } from "react-feather"
+
+const activeLinkStyles = {
+  color: "blue",
+  fontFamily: "Roboto-Black",
+}
 
 const BottomNav = () => (
   <div className="bottomNav hidden">
     <Link className="navItem" to="/work">
-      <p>🎨</p>
-      <p>Work</p>
+      <span>
+        <Briefcase color="#666" size={22} />
+      </span>
+      <span>Work</span>
     </Link>
     <Link className="navItem" to="/about">
-      <p>😊</p>
-      <p>About Me</p>
+      <span>
+        <Smile color="#666" size={22} />
+      </span>
+      <span>About</span>
     </Link>
     <Link className="navItem" to="/contact">
-      <p>📞</p>
-      <p>Contact</p>
+      <span>
+        <Send color="#666" size={22} />
+      </span>
+      <span>Contact</span>
     </Link>
   </div>
 )
