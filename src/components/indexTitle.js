@@ -44,7 +44,7 @@ class IndexTitle extends React.Component {
   render() {
     return (
       <h1 className="title">
-        Software Developer
+        Software Engineer
         <br />& <span style={{ opacity: this.state.opacity }}>{this.state.title}</span>
       </h1>
     )

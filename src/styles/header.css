@@ -12,8 +12,8 @@ header {
 header h1 a {
   font-family: 'Roboto-Black';
   text-decoration: none;
-  font-size: smaller;
-  color: #666
+  font-size: 0.75em;
+  color: #black
 }
 
 header h1 a:hover {

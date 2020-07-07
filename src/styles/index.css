@@ -1,19 +1,22 @@
 button {
-  margin-top: 4em;
-  border: 1px solid #ccc;
-  background: linear-gradient(#446DFF, #2655ff);
+  margin-top: 1.5em;
+  border: none;
   color: white;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
   padding: 1.25em 3em 1.25em 3em;
   font-family: 'Roboto-Bold';
   font-size: 1.25em;
-  border-radius: 0.5em;
+  border-radius: 0.75em;
 }
 
 button:hover {
   cursor: pointer;
-  background-color: #5278ff;
 }
 
-p {
-  margin-top: 3em;
+.homeText {
+  margin-top: 5em;
+  max-width: 720px;
+  line-height: 1.5em;
+  font-size: 1em;
+  color: #333;
 }
