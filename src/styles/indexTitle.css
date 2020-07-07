@@ -9,3 +9,9 @@ span {
   font-family: 'Roboto-Black';
   transition: opacity 1s
 }
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 3em;
+  }
+}

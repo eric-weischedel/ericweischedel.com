@@ -3,10 +3,11 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-top: 2px solid #eee;
   margin-top: 6em;
   padding-top: 15em;
   padding-bottom: 15em;
-  background-color: black;
+  background-color: white;
 }
 
 footer ul {
@@ -20,16 +21,16 @@ footer li a {
   padding: 0.5em 1em 0.5em 1em;
   font-size: 1.25em;
   font-family: 'Roboto-Bold';
-  color: white;
+  color: black;
   border-radius: 1em;
 }
 
 footer li a:hover {
-  background-color: #333;
+  background-color: #eee;
 }
 
 footer p {
-  color: white;
+  color: black;
   font-size: 0.75em;
   font-family: 'Roboto-Regular';
   margin: 0.75em;
