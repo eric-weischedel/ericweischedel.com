@@ -13,7 +13,7 @@ const IndexPage = () => (
     <p className="homeText">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa nunc tristique et est suspendisse volutpat volutpat lacus. Massa nunc tristique et est suspendisse volutpat volutpat lacus.
     </p>
-    <Link to="/work"><button>See My Work 🡒</button></Link>
+    <Link to="/work"><button className="cta">See My Work 🡒</button></Link>
   </Layout>
 )
 

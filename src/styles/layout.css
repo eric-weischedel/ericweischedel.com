@@ -27,7 +27,19 @@ html, body, main, * {
   outline: none;
 }
 
-div main {
+body {
+  font-size: 16px;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+main {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 0.75em;
+  }
 }

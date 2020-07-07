@@ -1,4 +1,4 @@
-button {
+.cta {
   margin-top: 1.5em;
   border: none;
   color: white;
@@ -9,7 +9,7 @@ button {
   border-radius: 0.75em;
 }
 
-button:hover {
+.cta:hover {
   cursor: pointer;
 }
 
