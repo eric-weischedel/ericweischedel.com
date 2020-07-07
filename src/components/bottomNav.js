@@ -4,15 +4,18 @@ import "../styles/BottomNav.css"
 
 const BottomNav = () => (
   <div className="bottomNav hidden">
-    <h1>
-      <Link to="/work">Work</Link>
-    </h1>
-    <h1>
-      <Link to="/about">About</Link>
-    </h1>
-    <h1>
-      <Link to="/contact">Contact</Link>
-    </h1>
+    <Link className="navItem" to="/work">
+      <p>🎨</p>
+      <p>Work</p>
+    </Link>
+    <Link className="navItem" to="/about">
+      <p>😊</p>
+      <p>About Me</p>
+    </Link>
+    <Link className="navItem" to="/contact">
+      <p>📞</p>
+      <p>Contact</p>
+    </Link>
   </div>
 )
 export default BottomNav
