@@ -12,19 +12,19 @@ const BottomNav = () => (
   <div className="bottomNav hidden">
     <Link className="navItem" to="/work">
       <span>
-        <Briefcase color="#000" size={20} />
+        <Briefcase color="#666" size={22} />
       </span>
       <span>Work</span>
     </Link>
     <Link className="navItem" to="/about">
       <span>
-        <Smile color="#000" size={20} />
+        <Smile color="#666" size={22} />
       </span>
       <span>About</span>
     </Link>
     <Link className="navItem" to="/contact">
       <span>
-        <Send color="#000" size={20} />
+        <Send color="#666" size={22} />
       </span>
       <span>Contact</span>
     </Link>
