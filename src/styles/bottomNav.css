@@ -21,11 +21,10 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .navItem span {
-  color: #666;
-  font-family: 'Roboto-Bold';
+  font-family: 'Roboto-Medium';
   margin-top: 0.3em;
 }
