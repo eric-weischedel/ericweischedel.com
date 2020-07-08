@@ -10,7 +10,11 @@ import Vue from "../images/icons8-vue-js.svg"
 import ReactJS from "../images/react-2.svg"
 import JavaScript from "../images/javascript.svg"
 import TypeScript from "../images/typescript.svg"
+import Html from "../images/html-5.svg"
+import Css from "../images/css-5.svg"
 import Mongo from "../images/mongo.svg"
+import Node from "../images/node.svg"
+import CircleCI from "../images/cci.svg"
 import CSharp from "../images/c--4.svg"
 
 
@@ -19,7 +23,7 @@ const WorkPage = () => (
     <SEO title="My Work" />
     <PageTitle title="My Work" />
     <p>TECHNOLOGIES</p>
-    <Badges images={[Firebase, Vue, ReactJS, JavaScript, TypeScript, Mongo, CSharp]}/>
+    <Badges images={[Firebase, Vue, ReactJS, CircleCI, JavaScript, TypeScript, Node, Mongo, CSharp, Html, Css]}/>
   </Layout>
 )
 
