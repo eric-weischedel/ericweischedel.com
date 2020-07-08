@@ -3,11 +3,24 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-top: 2px solid #eee;
+  border-top: 2px solid #ccc;
   margin-top: 6em;
   padding-top: 15em;
   padding-bottom: 15em;
-  background-color: white;
+  background-color: #eee;
+}
+
+footer a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer span {
+  font-family: 'Roboto-Medium';
+  font-size: 1em;
+  margin-top: 0.5em;
 }
 
 footer ul {
@@ -19,14 +32,11 @@ footer ul {
 footer li a {
   text-decoration: none;
   padding: 0.5em 1em 0.5em 1em;
-  font-size: 1.25em;
-  font-family: 'Roboto-Bold';
-  color: black;
   border-radius: 1em;
 }
 
 footer li a:hover {
-  background-color: #eee;
+  background-color: #ddd;
 }
 
 footer p {
