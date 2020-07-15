@@ -2,15 +2,27 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 13em;
+}
+
+.workEntry:nth-child(odd) {
+  flex-direction: row-reverse;
 }
 
 .workEntryTextPanel {
-  padding-right: 2em;
   flex: 1;
 }
 
 .workEntryImageContainer {
   flex: 1;
+}
+
+.workEntry:nth-child(odd) .workEntryTextPanel {
+  padding-left: 2em;
+}
+
+.workEntry:nth-child(even) .workEntryTextPanel {
+  padding-right: 2em;
 }
 
 .workEntryTitle {
@@ -47,5 +59,8 @@
 @media only screen and (max-width: 768px) {
   .workEntry {
     display: block;
+  }
+  .workEntryTextPanel {
+    padding: 0 !important;
   }
 }
