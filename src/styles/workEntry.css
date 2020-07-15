@@ -1,0 +1,25 @@
+.workEntry {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.workEntryTextPanel {
+  padding-right: 2em;
+  flex: 1;
+}
+
+.workEntryImageContainer {
+  flex: 1;
+}
+
+.workEntryImage {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .workEntry {
+    display: block;
+  }
+}

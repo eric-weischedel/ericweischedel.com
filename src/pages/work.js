@@ -3,27 +3,20 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PageTitle from "../components/pageTitle"
-import Badges from "../components/badges"
+import WorkEntry from "../components/workEntry"
 
-import Firebase from "../images/firebase-1.svg"
-import Vue from "../images/icons8-vue-js.svg"
-import ReactJS from "../images/react-2.svg"
-import JavaScript from "../images/javascript.svg"
-import TypeScript from "../images/typescript.svg"
-import Html from "../images/html-5.svg"
-import Css from "../images/css-5.svg"
-import Mongo from "../images/mongo.svg"
-import Node from "../images/node.svg"
-import CircleCI from "../images/cci.svg"
-import CSharp from "../images/c--4.svg"
+import Listrak from "../images/listrak.png"
 
 
 const WorkPage = () => (
   <Layout>
     <SEO title="My Work" />
     <PageTitle title="My Work" />
-    <p>TECHNOLOGIES</p>
-    <Badges images={[Firebase, Vue, ReactJS, CircleCI, JavaScript, TypeScript, Node, Mongo, CSharp, Html, Css]}/>
+    <WorkEntry
+      title="Email List Filtering Widget"
+      subtitle="Listrak, Inc."
+      desc={["Listrak is an eCommerce marketing automation platform and CRM. The platform includes a filter tool for B2B Enterprise SaaS clients to define audiences. The purpose of this project was to create an improved filter tool. I worked with a team of developers in an Agile Scrum environment.", "Technologies used included .NET Framework, C#, JavaScript, Vue.js, HTML/CSS, SQL Server, Git, and the Atlassian software suite."]}
+      img={Listrak} />
   </Layout>
 )
 
