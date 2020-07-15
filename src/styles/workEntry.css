@@ -13,6 +13,28 @@
   flex: 1;
 }
 
+.workEntryTitle {
+  font-size: 2.5em;
+  font-family: 'Roboto-Bold';
+}
+
+.workEntrySubtitle {
+  margin-top: 0.25em;
+  font-size: 1.5em;
+  font-family: 'Roboto-Regular';
+}
+
+.workEntryDescription {
+  margin-top: 2.5em;
+  font-size: 1em;
+  font-family: 'Roboto-Regular';
+  line-height: 2em;
+}
+
+.workEntryDescriptionParagraph {
+  color: #333;
+}
+
 .workEntryImage {
   width: 100%;
   height: auto;
