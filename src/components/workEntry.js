@@ -6,7 +6,7 @@ import Vue from "../images/icons8-vue-js.svg"
 import JS from "../images/javascript.svg"
 import CSharp from "../images/c--4.svg"
 
-const WorkEntry = ({ title, subtitle, img, desc }) => (
+const WorkEntry = ({ title, subtitle, img, desc, links }) => (
   <article className="workEntry">
     <div className="workEntryTextPanel">
       <h2 className="workEntryTitle">{title}</h2>
@@ -15,8 +15,13 @@ const WorkEntry = ({ title, subtitle, img, desc }) => (
       }
       <Badges images={[CSharp, JS, Vue]} />
       <div className="workEntryDescription">
-        {desc.map((paragraph) => <p className="workEntryDescriptionParagraph">{paragraph}<br /><br /></p>)}
+        {desc.map((paragraph) =>
+          <div><p className="workEntryDescriptionParagraph">{paragraph}</p><br /></div>
+        )}
       </div>
+      {links.map((link) =>
+        <div><a className="workEntryLink" href={link.url}>{link.title} 🡒</a><br /><br /></div>
+      )}
     </div>
     <figure className="workEntryImageContainer">
       <img className="workEntryImage" src={img} alt={title} />
