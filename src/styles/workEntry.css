@@ -58,7 +58,7 @@
 
 @media only screen and (max-width: 768px) {
   .workEntry {
-    display: block;
+    flex-direction: column-reverse !important;
   }
   .workEntryTextPanel {
     padding: 0 !important;
