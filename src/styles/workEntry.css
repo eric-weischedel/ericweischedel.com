@@ -18,11 +18,11 @@
 }
 
 .workEntry:nth-child(odd) .workEntryTextPanel {
-  padding-left: 2em;
+  padding-left: 4em;
 }
 
 .workEntry:nth-child(even) .workEntryTextPanel {
-  padding-right: 2em;
+  padding-right: 4em;
 }
 
 .workEntryTitle {
@@ -31,9 +31,14 @@
 }
 
 .workEntrySubtitle {
-  margin-top: 0.25em;
-  font-size: 1.5em;
-  font-family: 'Roboto-Regular';
+  margin-top: 0.5em;
+  font-size: 1em;
+  font-family: 'Roboto-Medium';
+  color: #333;
+}
+
+.badges {
+  margin-top: 1em;
 }
 
 .workEntryDescription {
@@ -54,6 +59,7 @@
 .workEntryImage {
   width: 100%;
   height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media only screen and (max-width: 768px) {

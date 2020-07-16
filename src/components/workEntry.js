@@ -2,18 +2,14 @@ import React from "react"
 import Badges from "./badges"
 import "../styles/workEntry.css"
 
-import Vue from "../images/icons8-vue-js.svg"
-import JS from "../images/javascript.svg"
-import CSharp from "../images/c--4.svg"
-
-const WorkEntry = ({ title, subtitle, img, desc, links }) => (
+const WorkEntry = ({ title, subtitle, img, desc, links, badgeImages = [] }) => (
   <article className="workEntry">
     <div className="workEntryTextPanel">
       <h2 className="workEntryTitle">{title}</h2>
       {subtitle &&
         <h3 className="workEntrySubtitle">{subtitle}</h3>
       }
-      <Badges images={[CSharp, JS, Vue]} />
+      <Badges images={badgeImages} />
       <div className="workEntryDescription">
         {desc.map((paragraph) =>
           <div><p className="workEntryDescriptionParagraph">{paragraph}</p><br /></div>

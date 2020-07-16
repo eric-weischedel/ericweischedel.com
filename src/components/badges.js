@@ -6,7 +6,7 @@ import "../styles/badges.css"
 const Badges = ({ images }) => {
   return (
     <div className="badges">
-      {images.map((image) => <Badge src={image}/>)}
+      {images.map((image) => <Badge src={image} />)}
     </div>
   );
 };
