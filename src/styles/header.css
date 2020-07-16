@@ -31,7 +31,7 @@ header li a {
   text-decoration: none;
   font-family: 'Roboto-Medium';
   border-radius: 1em;
-  color: #777
+  color: #333
 }
 
 header li a:hover {
