@@ -1,6 +1,5 @@
 import React from "react"
 import NavItem from "./navItem.js"
-import "../styles/bottomNav.scss"
 
 const BottomNav = () => {
   return (

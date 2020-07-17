@@ -1,7 +1,5 @@
 import React from "react"
-import "../styles/footer.scss"
 import { GitHub, Linkedin, Paperclip } from "react-feather"
-
 
 const Footer = () => (
   <footer>

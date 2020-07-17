@@ -1,6 +1,4 @@
 import React from "react"
-import "../styles/badge.scss"
-
 
 const Badge = ({ src }) => (
   <div className="badge">
