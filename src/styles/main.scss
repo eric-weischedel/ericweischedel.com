@@ -1,11 +1,15 @@
-@import 'badge.scss';
-@import 'badges.scss';
-@import 'bottomNav.scss';
-@import 'footer.scss';
-@import 'header.scss';
-@import 'index.scss';
-@import 'indexTitle.scss';
-@import 'layout.scss';
-@import 'navItem.scss';
-@import 'pageTitle.scss';
-@import 'workEntry.scss';
+@import 'vars/colors.scss';
+
+@import 'layout/layout.scss';
+@import 'layout/bottomNav.scss';
+@import 'layout/footer.scss';
+@import 'layout/header.scss';
+@import 'layout/navItem.scss';
+
+@import 'pages/index.scss';
+
+@import 'components/badge.scss';
+@import 'components/badges.scss';
+@import 'components/indexTitle.scss';
+@import 'components/pageTitle.scss';
+@import 'components/workEntry.scss';
