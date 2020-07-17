@@ -20,7 +20,7 @@
       span, p {
         font-size: 1.5em;
         font-family: 'Roboto-Medium';
-        margin-left: 1em;
+        margin-left: 1.5em;
       }
     }
   }
@@ -38,7 +38,7 @@
 
 @media only screen and (max-width: 768px) {
   .contactContainer {
-    flex-direction: column-reverse;
+    flex-direction: column;
 
     .imagePanel {
       margin-top: 3em;
