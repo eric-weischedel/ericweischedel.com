@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { Briefcase, Smile, MessageCircle } from "react-feather"
 import { primary } from "../styles/colors.js"
-import "../styles/navItem.css"
+import "../styles/navItem.scss"
 
 
 const NavItem = ({ label, path }) => {

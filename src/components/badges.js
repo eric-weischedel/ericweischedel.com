@@ -1,6 +1,6 @@
 import React from "react"
 import Badge from "./badge"
-import "../styles/badges.css"
+import "../styles/badges.scss"
 
 
 const Badges = ({ images }) => {

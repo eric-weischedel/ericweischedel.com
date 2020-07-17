@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import IndexTitle from "../components/indexTitle"
-import "../styles/index.css"
+import "../styles/index.scss"
 import Vector from "../images/undraw_source_code_xx2e.svg"
 
 const IndexPage = () => (

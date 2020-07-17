@@ -1,6 +1,6 @@
 import React from "react"
 import Badges from "./badges"
-import "../styles/workEntry.css"
+import "../styles/workEntry.scss"
 
 const WorkEntry = ({ title, subtitle, img, desc, links, badgeImages = [] }) => (
   <article className="workEntry">

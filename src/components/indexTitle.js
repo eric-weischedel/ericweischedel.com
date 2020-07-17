@@ -1,5 +1,5 @@
 import React from "react"
-import "../styles/indexTitle.css"
+import "../styles/indexTitle.scss"
 
 const titles = [
   "Problem Solver",
