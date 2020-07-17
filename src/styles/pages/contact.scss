@@ -10,20 +10,16 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      padding: 1em;
-      margin-bottom: 0.5em;
-      width: fit-content;
+      margin-bottom: 2em;
 
       a {
-        font-family: 'Roboto-Bold';
+        font-family: 'Roboto-Medium';
         text-decoration: none;
-        color: $secondary-color;
       }
 
       span, p {
-        color: $secondary-color;
         font-size: 1.5em;
-        font-family: 'Roboto-Bold';
+        font-family: 'Roboto-Medium';
         margin-left: 1em;
       }
     }
