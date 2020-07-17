@@ -1,0 +1,51 @@
+.contactContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .textPanel {
+    flex: 1;
+
+    .medium {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 1em;
+      margin-bottom: 0.5em;
+      width: fit-content;
+
+      a {
+        font-family: 'Roboto-Bold';
+        text-decoration: none;
+        color: $secondary-color;
+      }
+
+      span, p {
+        color: $secondary-color;
+        font-size: 1.5em;
+        font-family: 'Roboto-Bold';
+        margin-left: 1em;
+      }
+    }
+  }
+
+  .imagePanel {
+    flex: 1;
+    align-self: flex-end;
+    margin-top: 2em;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contactContainer {
+    flex-direction: column-reverse;
+
+    .imagePanel {
+      margin-top: 3em;
+    }
+  }
+}

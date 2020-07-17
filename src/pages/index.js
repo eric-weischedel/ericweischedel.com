@@ -15,7 +15,7 @@ function getRandomHero() {
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="container">
+    <div className="indexContainer">
       <div className="textPanel">
         <IndexTitle />
         <p className="homeText">
@@ -28,7 +28,7 @@ const IndexPage = () => (
         </Link>
       </div>
       <div className="imagePanel">
-        <img src={getRandomHero()} />
+        <img src={getRandomHero()} alt=""/>
       </div>
     </div>
   </Layout>
