@@ -1,5 +1,6 @@
 import React from "react"
 import Badges from "./badges"
+import SecondaryAction from "./secondaryAction"
 
 const WorkEntry = ({ title, subtitle, img, desc, links, badgeImages = [] }) => (
   <article className="workEntry">
@@ -15,7 +16,7 @@ const WorkEntry = ({ title, subtitle, img, desc, links, badgeImages = [] }) => (
         )}
       </div>
       {links.map((link) =>
-        <div><a className="workEntryLink" href={link.url}>{link.title} 🡒</a><br /><br /></div>
+        <SecondaryAction text={link.title} link={link.url} />
       )}
     </div>
     <figure className="workEntryImageContainer">

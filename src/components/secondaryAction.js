@@ -6,7 +6,7 @@ import { primary } from "../styles/colors.js"
 
 const SecondaryAction = ({ text, link }) => (
   <Link className="secondaryAction" to={link}>
-      <ArrowRightCircle size={24} strokeWidth={3} color={primary} />
+      <ArrowRightCircle size={22} strokeWidth={2.5} color={primary} />
       <span className="secondaryActionText">&nbsp;&nbsp;{text}</span>
   </Link>
 )
