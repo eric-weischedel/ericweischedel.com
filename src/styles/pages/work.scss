@@ -1,0 +1,13 @@
+.workContainer {
+
+  .seeMore {
+    display: flex;
+    flex-direction: row;
+
+    .promptText {
+      margin-right: 1em;
+      font-size: 1.5em;
+      font-family: 'Roboto-Regular';
+    }
+  }
+}
