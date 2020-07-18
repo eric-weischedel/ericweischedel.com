@@ -4,6 +4,8 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import IndexTitle from "../components/indexTitle"
+import { ArrowRight } from "react-feather";
+
 import Hero1 from "../images/undraw_source_code_xx2e.svg"
 import Hero2 from "../images/undraw_solution_mindset_34bi.svg"
 
@@ -24,7 +26,10 @@ const IndexPage = () => (
           tristique et est suspendisse volutpat volutpat lacus.
         </p>
         <Link to="/work">
-          <button className="cta">See My Work 🡒</button>
+          <button className="cta">
+            <span>See My Work &nbsp;</span>
+            <ArrowRight color="white" strokeWidth={3}/>
+          </button>
         </Link>
       </div>
       <div className="imagePanel">

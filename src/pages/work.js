@@ -56,10 +56,10 @@ const WorkPage = () => (
           }
         ]}
       />
-      <p className="seeMore">
+      <div className="seeMore">
         <span className="promptText">Want to learn more?</span>
         <SecondaryAction text="See About Me" link="/about" />
-      </p>
+      </div>
     </div>
   </Layout>
 )
