@@ -28,7 +28,7 @@ const IndexPage = () => (
         <Link to="/work">
           <button className="cta">
             <span>See My Work &nbsp;</span>
-            <ArrowRight color="white" strokeWidth={3}/>
+            <ArrowRight color="white" strokeWidth={2}/>
           </button>
         </Link>
       </div>

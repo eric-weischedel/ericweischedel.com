@@ -12,11 +12,11 @@ const NavItem = ({ label, path }) => {
   }
   var icon;
   if (label === "Work") {
-    icon = <Briefcase color={color} size={22} />;
+    icon = <Briefcase color={color} size={22} strokeWidth={2} />;
   } else if (label === "About") {
-    icon = <Smile color={color} size={22} />;
+    icon = <Smile color={color} size={22} strokeWidth={2} />;
   } else if (label === "Contact") {
-    icon = <MessageCircle color={color} size={22} />;
+    icon = <MessageCircle color={color} size={22} strokeWidth={2} />;
   }
   return (
     <Link className="navItem" to={path}>
