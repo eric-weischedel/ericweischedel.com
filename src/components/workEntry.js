@@ -2,7 +2,7 @@ import React from "react"
 import Badges from "./badges"
 import SecondaryAction from "./secondaryAction"
 
-const WorkEntry = ({ title, subtitle, img, desc, links, badgeImages = [] }) => (
+const WorkEntry = ({ children, title, subtitle, img, desc, links, badgeImages = [] }) => (
   <article className="workEntry">
     <div className="workEntryTextPanel">
       <h2 className="workEntryTitle">{title}</h2>
@@ -20,7 +20,7 @@ const WorkEntry = ({ title, subtitle, img, desc, links, badgeImages = [] }) => (
       )}
     </div>
     <figure className="workEntryImageContainer">
-      <img className="workEntryImage" src={img} alt={title} />
+      {children}
     </figure>
   </article>
 )

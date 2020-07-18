@@ -17,6 +17,9 @@ import ReactJS from "../images/react-2.svg"
 import Listrak from "../images/listrak.png"
 import Hoodat from "../images/hoodat.jpg"
 
+import ListrakImg from "../components/gatsbyImages/listrakImg";
+import HoodatImg from "../components/gatsbyImages/hoodatImg";
+
 const WorkPage = () => (
   <Layout>
     <SEO title="My Work" />
@@ -38,7 +41,9 @@ const WorkPage = () => (
             url: "http://listrak.com"
           }
         ]}
-      />
+      >
+        <ListrakImg />
+      </WorkEntry>
       <WorkEntry
         title="Hoodat: Remember Names"
         subtitle="Capstone Project at University"
@@ -55,7 +60,9 @@ const WorkPage = () => (
             url: "http://github.com"
           }
         ]}
-      />
+      >
+        <HoodatImg />
+      </WorkEntry>
       <div className="seeMore">
         <span className="promptText">Want to learn more?</span>
         <SecondaryAction text="See About Me" link="/about" />
