@@ -2,9 +2,12 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import { primary } from "../styles/colors.js"
+
 const activeLinkStyles = {
   color: 'blue',
-  fontFamily: 'Roboto-Black'
+  fontFamily: 'Roboto-Black',
+  borderBottom: `3px solid ${primary}`
 }
 
 const Header = ({ siteTitle }) => (
@@ -20,7 +23,7 @@ const Header = ({ siteTitle }) => (
       <li><Link to="/work" activeStyle={activeLinkStyles}>Work</Link></li>
       <li><Link to="/about" activeStyle={activeLinkStyles}>About</Link></li>
       <li><Link to="/contact" activeStyle={activeLinkStyles}>Contact</Link></li>
-      </ul>
+    </ul>
   </header>
 )
 

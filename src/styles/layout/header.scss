@@ -1,12 +1,12 @@
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   border-bottom: 1px solid #ccc;
   max-width: 1440px;
   margin: 0 auto;
-  padding-top: 3em;
-  padding-bottom: 1em;
+  padding-top: 2.5em;
+  padding-bottom: 1.5em;
 }
 
 header h1 a {
@@ -26,16 +26,17 @@ header ul {
 }
 
 header li a {
-  margin-right: 1em;
-  padding: 0.5em 1em 0.5em 1em;
+  padding: 1.5em 2em 1.5em 2em;
   text-decoration: none;
   font-family: 'Roboto-Medium';
-  border-radius: 1em;
-  color: #333
+  color: black;
+  border-bottom-width: 0px;
+  border-bottom-style: solid;
+  border-bottom-color: #ccc;
 }
 
 header li a:hover {
-  background-color: #F3F3F3;
+  border-bottom-width: 3px;
 }
 
 @media only screen and (max-width: 768px) {
