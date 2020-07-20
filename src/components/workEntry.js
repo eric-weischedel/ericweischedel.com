@@ -7,7 +7,7 @@ const WorkEntry = ({ children, title, subtitle, img, desc, links, badgeImages = 
     <div className="workEntryTextPanel">
       <h2 className="heading">{title}</h2>
       {subtitle &&
-        <h3 className="workEntrySubtitle">{subtitle}</h3>
+        <h3 className="heading2">{subtitle}</h3>
       }
       <Badges images={badgeImages} />
       <br />
