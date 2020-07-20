@@ -51,7 +51,7 @@
 
 @media only screen and (max-width: 768px) {
   .indexContainer {
-    flex-direction: column;
+    flex-direction: column-reverse;
 
     .imagePanel {
       margin-top: 3em;

@@ -17,20 +17,22 @@ function getRandomHero() {
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    <IndexTitle />
     <div className="indexContainer">
       <div className="textPanel">
-        <IndexTitle />
         <p className="homeText">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa nunc
           tristique et est suspendisse volutpat volutpat lacus. Massa nunc
           tristique et est suspendisse volutpat volutpat lacus.
         </p>
-        <Link to="/work">
-          <button className="cta">
-            <span>See My Work &nbsp;</span>
-            <ArrowRight color="white" strokeWidth={2}/>
-          </button>
-        </Link>
+        <div className="ctaContainer">
+          <Link to="/work">
+            <button className="cta">
+              <span>See My Work &nbsp;</span>
+              <ArrowRight color="white" strokeWidth={2} />
+            </button>
+          </Link>
+        </div>
       </div>
       <div className="imagePanel">
         <img src={getRandomHero()} alt=""/>
