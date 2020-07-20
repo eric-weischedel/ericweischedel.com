@@ -8,6 +8,13 @@ const Footer = () => (
       <li><a href="https:/linkedin.com/in/eric-weischedel"><Linkedin color="#fff" size={22} strokeWidth={2} /><span>LinkedIn</span></a></li>
       <li><a href="mailto:yshuttle@gmail.com"><Paperclip color="#fff" size={22} strokeWidth={2} /><span>Resume</span></a></li>
     </ul>
+    <p className="paragraph">
+      Site developed by Eric Weischedel using GatsbyJS.
+      <br />
+      You can view the source code here.
+      <br />
+      © Eric Weischedel {(new Date).getFullYear()}.
+    </p>
   </footer>
 )
 export default Footer

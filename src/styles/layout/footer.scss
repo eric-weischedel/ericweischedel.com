@@ -38,9 +38,10 @@ footer li a:hover {
   background-color: #292838;
 }
 
-footer p {
+footer .paragraph {
+  margin-top: 6em;
+  text-align: center;
   color: white;
+  font-family: 'Roboto-Light';
   font-size: 0.75em;
-  font-family: 'Roboto-Regular';
-  margin: 0.75em;
 }
