@@ -1,11 +1,32 @@
 .aboutContainer {
+  display: flex;
+  flex-direction: row;
 
-  .seeMore {
+  .textPanel {
+    flex: 2;
+    padding-right: 4em;
 
-    .promptText {
-      margin-right: 1em;
-      font-size: 1.5em;
-      font-family: 'Roboto-Regular';
+    .seeMore {
+
+      .promptText {
+        margin-right: 1em;
+        font-size: 1.5em;
+        font-family: 'Roboto-Regular';
+      }
     }
+  }
+
+  .imagePanel {
+    flex: 1;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutContainer {
+    flex-direction: column-reverse;
   }
 }
