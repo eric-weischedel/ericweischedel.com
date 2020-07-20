@@ -24,7 +24,7 @@ const AboutPage = () => (
         </div>
         <div className="seeMore">
           <span className="promptText">Interested in reaching out?</span>
-          <SecondaryAction text="Get In Touch" link="/contact" />
+          <SecondaryAction text="Contact Me" link="/contact" />
         </div>
       </div>
       <div className="imagePanel">
