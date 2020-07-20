@@ -13,12 +13,15 @@ import TS from "../images/typescript.svg"
 import Mongo from "../images/mongo.svg"
 import Node from "../images/node.svg"
 import ReactJS from "../images/react-2.svg"
+import HTML from "../images/html-5.svg"
+import CSS from "../images/css-5.svg"
 
 import Listrak from "../images/listrak.png"
 import Hoodat from "../images/hoodat.jpg"
 
 import ListrakImg from "../components/gatsbyImages/listrakImg";
 import HoodatImg from "../components/gatsbyImages/hoodatImg";
+import PortfolioImg from "../components/gatsbyImages/portfolioImg";
 
 const WorkPage = () => (
   <Layout>
@@ -62,6 +65,20 @@ const WorkPage = () => (
         ]}
       >
         <HoodatImg />
+      </WorkEntry>
+      <WorkEntry
+        title="Portfolio Website"
+        desc={["I designed and developed a personal portfolio website to showcase my work and skills (yes, it's this website). The site is both desktop and mobile friendly, and it features four dynamic pages.", "I developed the site using Gatsby, a framework on top of ReactJS. The site is hosted on GitHub Pages."]}
+        badgeImages={[ReactJS, JS, HTML, CSS]}
+        img={Hoodat}
+        links={[
+          {
+            title: "View Source Code",
+            url: "https://github.com/eric-weischedel/ericweischedel.com"
+          }
+        ]}
+      >
+        <PortfolioImg />
       </WorkEntry>
       <div className="seeMore">
         <span className="promptText">Want to learn more?</span>
