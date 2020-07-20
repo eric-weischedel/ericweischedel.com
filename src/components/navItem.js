@@ -6,7 +6,7 @@ import { primary } from "../styles/colors.js"
 const NavItem = ({ label, path }) => {
   var color = "#666666";
   var active = false;
-  if (window.location) {
+  if (window) {
     active = window.location.pathname === path;
     color = active ? primary : "#666666";
   }
