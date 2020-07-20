@@ -9,13 +9,13 @@ const WorkEntry = ({ children, title, subtitle, img, desc, links, badgeImages = 
       {subtitle &&
         <h3 className="heading2">{subtitle}</h3>
       }
-      <Badges images={badgeImages} />
       <br />
       <div>
         {desc.map((paragraph) =>
           <div><p className="paragraph">{paragraph}</p><br /></div>
         )}
       </div>
+      <Badges images={badgeImages} />
       {links.map((link) =>
         <SecondaryAction text={link.title} link={link.url} />
       )}
