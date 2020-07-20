@@ -5,7 +5,7 @@ import React from "react"
 import { primary } from "../styles/colors.js"
 
 const activeLinkStyles = {
-  color: 'blue',
+  color: primary,
   fontFamily: 'Roboto-Black',
   borderBottom: `3px solid ${primary}`
 }
