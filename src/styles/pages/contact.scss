@@ -6,21 +6,23 @@
   .textPanel {
     flex: 1;
 
-    .medium {
+    .mediaContainer {
       display: flex;
       flex-direction: row;
-      align-items: center;
-      margin-bottom: 2em;
+      flex-wrap: wrap;
 
-      a {
-        font-family: 'Roboto-Medium';
-        text-decoration: none;
+      .mediaItem {
+        margin-right: 2em;
+        margin-bottom: 2em;
       }
+    }
 
-      span, p {
+    .seeMore {
+
+      .promptText {
+        margin-right: 1em;
         font-size: 1.5em;
-        font-family: 'Roboto-Medium';
-        margin-left: 1.5em;
+        font-family: 'Roboto-Regular';
       }
     }
   }
@@ -28,7 +30,6 @@
   .imagePanel {
     flex: 1;
     align-self: flex-end;
-    margin-top: 2em;
 
     img {
       width: 100%;
@@ -38,7 +39,7 @@
 
 @media only screen and (max-width: 768px) {
   .contactContainer {
-    flex-direction: column;
+    flex-direction: column-reverse;
 
     .imagePanel {
       margin-top: 3em;

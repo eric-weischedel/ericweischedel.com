@@ -5,25 +5,38 @@ import SEO from "../components/seo"
 import PageTitle from "../components/pageTitle"
 import ContactImage from "../images/undraw_contact_us_15o2.svg"
 import { Linkedin, Phone, Mail } from "react-feather"
+import SecondaryAction from "../components/secondaryAction"
 
 const ContactPage = () => (
   <Layout>
     <SEO title="Contact" />
+    <PageTitle title="Contact Me" />
     <div className="contactContainer">
       <div className="textPanel">
-        <PageTitle title="Contact Me"/>
-        <div className="medium">
-          <Mail color="#000" size={22} strokeWidth={2}/>
-          <p>yshuttle@gmail.com</p><br />
+        <h2 className="heading">Let's Chat!</h2>
+        <p className="paragraph">
+          If you’re looking to reach out for any reason, please do not hesitate to reach me at any of the following media. I will be sure to promptly respond.
+        </p>
+        <div className="mediaContainer">
+          <div className="mediaItem">
+            <p className="heading2">Email</p>
+            <p className="paragraph">yshuttle@gmail.com</p>
+          </div>
+          <div className="mediaItem">
+            <p className="heading2">Phone</p>
+            <p className="paragraph">+1 717-380-2757</p>
+          </div>
+          <div className="mediaItem">
+            <p className="heading2">LinkedIn</p>
+            <p className="paragraph"><a href="https://linkedin.com/in/eric-weischedel">in/eric-weischedel</a></p>
+          </div>
         </div>
-        <div className="medium">
-          <Phone color="#000" size={22} strokeWidth={2}/>
-          <p>717-380-2757</p><br />
+        <br /><br />
+        <div className="seeMore">
+          <span className="promptText">Want to learn more?</span>
+          <SecondaryAction text="See About Me" link="/about" />
         </div>
-        <div className="medium">
-          <Linkedin color="#000" size={22} strokeWidth={2}/>
-          <p><a href="https://linkedin/com/in/eric-weischedel">in/eric-weischedel</a></p>
-        </div>
+
       </div>
       <div className="imagePanel">
         <img src={ContactImage} alt=""/>
