@@ -18,9 +18,7 @@ const NavItem = ({ label, path }) => {
   }
   return (
     <Link getProps={isActive} className="navItem" to={path}>
-      <span>
-        {icon}
-      </span>
+      {icon}
       <span>{label}</span>
     </Link>
   );
