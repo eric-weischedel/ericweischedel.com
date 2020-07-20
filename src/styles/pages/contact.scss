@@ -5,6 +5,7 @@
 
   .textPanel {
     flex: 1;
+    margin-right: 2em;
 
     .mediaContainer {
       display: flex;
@@ -13,7 +14,6 @@
 
       .mediaItem {
         margin-right: 2em;
-        margin-bottom: 2em;
       }
     }
 
@@ -42,7 +42,7 @@
     flex-direction: column-reverse;
 
     .imagePanel {
-      margin-top: 3em;
+      margin-bottom: 2em;
     }
   }
 }

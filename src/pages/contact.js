@@ -15,7 +15,7 @@ const ContactPage = () => (
       <div className="textPanel">
         <h2 className="heading">Let's Chat!</h2>
         <p className="paragraph">
-          If you’re looking to reach out for any reason, please do not hesitate to reach me at any of the following media. I will be sure to promptly respond.
+          If you want to get in touch with me for any reason, please don't hesitate to reach out. You can contact me via any of the following media. I look forward to hearing from you.
         </p>
         <div className="mediaContainer">
           <div className="mediaItem">
