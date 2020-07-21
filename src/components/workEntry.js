@@ -1,8 +1,9 @@
 import React from "react"
 import Badges from "./badges"
 import SecondaryAction from "./secondaryAction"
+import Tags from "./tags"
 
-const WorkEntry = ({ children, title, subtitle, img, desc, links, badgeImages = [] }) => (
+const WorkEntry = ({ children, title, subtitle, img, desc, links, tags }) => (
   <article className="workEntry">
     <div className="workEntryTextPanel">
       <h2 className="heading">{title}</h2>
@@ -12,10 +13,12 @@ const WorkEntry = ({ children, title, subtitle, img, desc, links, badgeImages = 
       <br />
       <div>
         {desc.map((paragraph) =>
-          <div><p className="paragraph">{paragraph}</p><br /></div>
+          <div><p className="paragraph">{paragraph}</p></div>
         )}
       </div>
-      <Badges images={badgeImages} />
+      {tags &&
+        <Tags tags={tags} />
+      }
       {links.map((link) =>
         <SecondaryAction text={link.title} link={link.url} />
       )}

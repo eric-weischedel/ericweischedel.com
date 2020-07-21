@@ -1,0 +1,19 @@
+.tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 3em;
+
+  .tag {
+    background-color: rgb(245, 245, 245);
+    padding: 0.25em 0.75em 0.25em 0.75em;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+
+    span {
+      font-size: 0.75em;
+      font-family: 'Roboto-Regular';
+    }
+  }
+}
