@@ -1,11 +1,16 @@
 header {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   border-bottom: 1px solid #ccc;
+  background-color: white;
+  z-index: 1000;
   max-width: 1440px;
   margin: 0 auto;
-  padding-top: 2.5em;
+  margin-top: 1.5em;
+  padding-top: 1em;
   padding-bottom: 1.5em;
 }
 
@@ -32,7 +37,7 @@ header li a {
   color: black;
   border-bottom-width: 0px;
   border-bottom-style: solid;
-  border-bottom-color: #ccc;
+  border-bottom-color: #bbb;
 }
 
 header li a:hover {
@@ -40,7 +45,12 @@ header li a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-  header ul {
-    display: none;
+  header {
+    position: static;
+    margin-top: 0;
+    padding-bottom: 1em;
+    ul {
+      display: none;
+    }
   }
 }
