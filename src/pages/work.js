@@ -27,10 +27,6 @@ const WorkPage = () => (
         ]}
         links={[
           {
-            title: "Watch My Presentation",
-            url: "https://youtube.com"
-          },
-          {
             title: "Explore HomeX",
             url: "https://homex.com"
           }
