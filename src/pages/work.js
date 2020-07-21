@@ -10,6 +10,7 @@ import ListrakImg from "../components/gatsbyImages/listrakImg";
 import PortfolioImg from "../components/gatsbyImages/portfolioImg";
 import ClueImg from "../components/gatsbyImages/clueImg";
 import WIPImg from "../components/gatsbyImages/wipImg";
+import HomeXImg from "../components/gatsbyImages/homexImg";
 
 const WorkPage = () => (
   <Layout>
@@ -35,7 +36,7 @@ const WorkPage = () => (
           }
         ]}
       >
-        <WIPImg />
+        <HomeXImg />
       </WorkEntry>
 
       <WorkEntry
@@ -99,7 +100,7 @@ const WorkPage = () => (
       <WorkEntry
         title="Hoodat: Remember Names"
         subtitle="Senior Project at Messiah University"
-        desc={["Mobile app to help you remember names and faces by quizzing you. I am serving as the product owner and lead backend developer on an agile team of four."]}
+        desc={["Work in progress. To be completed by Spring 2021.", "Mobile app to help you remember names and faces by quizzing you. I am serving as the product owner and lead backend developer on an agile team of four."]}
         tags={[
           "React Native",
           "JavaScript",
