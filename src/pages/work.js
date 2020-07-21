@@ -18,16 +18,20 @@ const WorkPage = () => (
       <PageTitle title="My Work" />
 
       <WorkEntry
-        title="Continuous Integration Tests "
+        title="Automated Integration Tests"
         subtitle="HomeX — Backend Developer Intern"
-        desc={["Accounts", "CI/CD"]}
+        desc={["HomeX is revolutionizing the home services industry with high quality software. I worked with a team of developers on a critical backend service. My primary contributions revolved around improving the release pipeline of the service, implementing continuous integration and continuous deployment (CI/CD). This increased the reliability of the service, and gave developers confidence to rapidly push changes."]}
         tags={[
-          "CircleCI", "Spinnaker", "Postman", "NodeJS", "TypeScript", "Git", "Software Testing", "Continuous Integration", "Continuous Deployment"
+          "CircleCI", "Spinnaker", "Postman", "NodeJS", "TypeScript", "REST API", "Git", "Reliability Engineering", "Continuous Integration", "Continuous Deployment"
         ]}
         links={[
           {
-            title: "Watch Presentation",
+            title: "Watch My Presentation",
             url: "https://youtube.com"
+          },
+          {
+            title: "Explore HomeX",
+            url: "https://homex.com"
           }
         ]}
       >
@@ -47,7 +51,7 @@ const WorkPage = () => (
             url: "https://help.listrak.com/en/articles/3951597-introducing-segment-filter-2-0-beta"
           },
           {
-            title: "View App",
+            title: "Explore Listrak",
             url: "http://listrak.com"
           }
         ]}
@@ -58,7 +62,7 @@ const WorkPage = () => (
       <WorkEntry
         title="ClueMeIn"
         subtitle="Personal Project"
-        desc={["Clue Me In is a React Native mobile app that improves the user's chances of winning the boardgame Clue. Its main feature is displaying the likelihood that each card in the game corresponds to the true circumstance of the murder. This feature allows the user to make better choices and ultimately conclude the circumstances of the murder faster than the opponents."]}
+        desc={["ClueMeIn is a React Native mobile app that improves the user's chances of winning the boardgame Clue. Its main feature is displaying the likelihood that each card in the game corresponds to the true circumstance of the murder. This feature allows the user to make better choices and ultimately conclude the circumstances of the murder faster than the opponents."]}
         tags={[
           "React Native", "Expo.io", "JavaScript"
         ]}
@@ -75,7 +79,7 @@ const WorkPage = () => (
       <WorkEntry
         title="Portfolio Website"
         subtitle="Personal Project"
-        desc={["I designed and developed a personal portfolio website to showcase my work and skills. The site is both desktop and mobile friendly, and it features four dynamic pages.", "I developed the site using Gatsby, a framework on top of ReactJS. The site is hosted on GitHub Pages."]}
+        desc={["I designed and developed this personal portfolio website to showcase my work and skills. The site is both desktop and mobile friendly, and it features four dynamic pages.", "I developed the site using Gatsby, a framework on top of ReactJS. The site is hosted on GitHub Pages."]}
         tags={[
           "GatsbyJS",
           "ReactJS",
