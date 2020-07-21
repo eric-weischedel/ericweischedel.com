@@ -21,9 +21,7 @@ const IndexPage = () => (
     <div className="indexContainer">
       <div className="textPanel">
         <p className="homeText">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa nunc
-          tristique et est suspendisse volutpat volutpat lacus. Massa nunc
-          tristique et est suspendisse volutpat volutpat lacus.
+          Creative developer focused on delivering clean code and reliable solutions for your system. 2021 grad with experience in two developer positions and numerous projects. Let's build something awesome.
         </p>
         <div className="ctaContainer">
           <Link to="/work">
