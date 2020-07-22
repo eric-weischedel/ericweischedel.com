@@ -14,12 +14,12 @@ const AboutPage = () => (
     <div className="aboutContainer">
       <div className="textPanel">
         <div className="aboutSummary">
-          <h2 className="heading">My Background</h2>
+          <h2 className="heading">Hello World!</h2>
           <p className="paragraph">
             In 1998, I was born in <em>Lancaster, Pennsylvania,</em> where I grew up and live today.
           </p>
           <p className="paragraph">
-            At a young age I gained an interest in computers through playing video games and solving IT problems for my family. <b>I first dabbled into programming on my TI-84 graphing calculator</b> in highschool. I really enjoyed the logic behind it.
+            At a young age I gained an interest in computers through playing video games and solving IT problems for my family. I first dabbled into programming on my TI-84 graphing calculatorin highschool. <b>I really enjoyed the logic behind it.</b>
           </p>
           <p className="paragraph">
             After graduating high school in 2017, I decided to major in Computer Science at <em>Messiah University.</em> While there, I loved my programming classes, especially a web development class where we built a full-stack app from scratch. <b>I soon decided I would pursue a career in software engineering.</b>
