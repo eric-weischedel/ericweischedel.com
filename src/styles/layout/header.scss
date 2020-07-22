@@ -4,7 +4,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #bbb;
+  box-shadow: 0 15px 20px -20px rgba(0, 0, 0, 0.2);
   background-color: white;
   z-index: 1000;
   max-width: 1440px;
@@ -33,11 +34,11 @@ header ul {
 header li a {
   padding: 1.5em 2em 1.5em 2em;
   text-decoration: none;
-  font-family: 'Roboto-Medium';
-  color: black;
+  font-family: 'Roboto-Black';
+  color: #666;
   border-bottom-width: 0px;
   border-bottom-style: solid;
-  border-bottom-color: #bbb;
+  border-bottom-color: #999;
 }
 
 header li a:hover {
@@ -49,6 +50,7 @@ header li a:hover {
     position: static;
     margin-top: 0;
     padding-bottom: 1em;
+    box-shadow: none;
     ul {
       display: none;
     }

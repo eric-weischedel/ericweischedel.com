@@ -8,12 +8,22 @@
     background-color: rgb(245, 245, 245);
     padding: 0.25em 0.75em 0.25em 0.75em;
     margin-right: 0.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.75em;
     border-radius: 1em;
 
     span {
       font-size: 0.75em;
       font-family: 'Roboto-Regular';
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .tags {
+    .tag {
+      span {
+        font-size: 0.9em;
+      }
     }
   }
 }

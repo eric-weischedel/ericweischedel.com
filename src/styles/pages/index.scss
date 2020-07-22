@@ -17,7 +17,7 @@
   }
 
   .cta {
-    margin-top: 1.5em;
+    margin-top: 1em;
     border: none;
     background-color: #2575fc;
     padding: 2em 4em 2em 4em;
@@ -42,10 +42,6 @@
   .homeText {
     margin-top: 5em;
     max-width: 720px;
-    color: black;
-    font-size: 1em;
-    font-family: 'Roboto-Regular';
-    line-height: 2em;
     margin-bottom: 1em;
   }
 }
@@ -56,6 +52,10 @@
 
     .imagePanel {
       margin-top: 3em;
+    }
+
+    .homeText {
+      margin-top: 1em;
     }
   }
 }

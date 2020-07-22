@@ -20,7 +20,7 @@ const IndexPage = () => (
     <IndexTitle />
     <div className="indexContainer">
       <div className="textPanel">
-        <p className="homeText">
+        <p className="homeText paragraph">
           Creative developer focused on delivering clean code and reliable solutions for your system. 2021 grad with experience in two developer positions and numerous projects. Let's build something awesome.
         </p>
         <div className="ctaContainer">

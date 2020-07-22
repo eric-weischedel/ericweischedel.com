@@ -6,7 +6,6 @@ import { primary } from "../styles/colors.js"
 
 const activeLinkStyles = {
   color: primary,
-  fontFamily: 'Roboto-Black',
   borderBottom: `3px solid ${primary}`
 }
 
