@@ -19,9 +19,11 @@ const WorkEntry = ({ children, title, subtitle, img, desc, links, tags }) => (
       {tags &&
         <Tags tags={tags} />
       }
-      {links.map((link) =>
-        <SecondaryAction text={link.title} link={link.url} />
-      )}
+      {links &&
+        links.map((link) =>
+          <SecondaryAction text={link.title} link={link.url} />
+        )
+      }
     </div>
     <figure className="workEntryImageContainer">
       {children}

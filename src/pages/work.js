@@ -57,20 +57,20 @@ const WorkPage = () => (
       </WorkEntry>
 
       <WorkEntry
-        title="ClueMeIn"
-        subtitle="Personal Project"
-        desc={["ClueMeIn is a React Native mobile app that improves the user's chances of winning the boardgame Clue. Its main feature is displaying the likelihood that each card in the game corresponds to the true circumstance of the murder. This feature allows the user to make better choices and ultimately conclude the circumstances of the murder faster than the opponents."]}
+        title="YouTunes"
+        subtitle="Course Project at Messiah University"
+        desc={["YouTunes is a full-stack music kiosk web application. Users can listen to groovy tunes, view information about the music, and add their own songs to the app's ecosystem.", "I led a small team of developers to complete the app within one semester. By helping my teammates and coordinating meetings, we were able to deliver more features than expected. Along the way, we presented and demoed our progress in front of a mock client. I increased my ability to teach myself through learning various aspects of the technology."]}
         tags={[
-          "React Native", "Expo.io", "JavaScript"
+          "PHP", "MySQL", "HTML/CSS", "Smarty", "Scrum", "Agile"
         ]}
         links={[
           {
-            title: "View Code on GitHub",
-            url: "https://github.com/eric-weischedel/clue"
+            title: "View Course Description",
+            url: "http://messiah.smartcatalogiq.com/en/2019-2020/Undergraduate-Catalog/Undergraduate-Course-Offerings/CIS-Computer-Information-Science/200/CIS-291"
           }
         ]}
       >
-        <ClueImg />
+        <WIPImg />
       </WorkEntry>
 
       <WorkEntry
@@ -91,6 +91,23 @@ const WorkPage = () => (
         ]}
       >
         <PortfolioImg />
+      </WorkEntry>
+
+      <WorkEntry
+        title="ClueMeIn"
+        subtitle="Personal Project"
+        desc={["ClueMeIn is a React Native mobile app that improves the user's chances of winning the boardgame Clue. Its main feature is displaying the likelihood that each card in the game corresponds to the true circumstance of the murder. This feature allows the user to make better choices and ultimately conclude the circumstances of the murder faster than the opponents."]}
+        tags={[
+          "React Native", "Expo.io", "JavaScript"
+        ]}
+        links={[
+          {
+            title: "View Code on GitHub",
+            url: "https://github.com/eric-weischedel/clue"
+          }
+        ]}
+      >
+        <ClueImg />
       </WorkEntry>
 
       <WorkEntry
