@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PageTitle from "../components/pageTitle"
 
-import Hero from "../images/undraw_not_found_60pq.svg"
+import Hero from "../images/undraw_not_found.svg"
 
 const NotFoundPage = () => (
   <Layout>

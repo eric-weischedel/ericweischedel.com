@@ -6,8 +6,8 @@ import SEO from "../components/seo"
 import IndexTitle from "../components/indexTitle"
 import { ArrowRight } from "react-feather";
 
-import Hero1 from "../images/undraw_source_code_xx2e.svg"
-import Hero2 from "../images/undraw_solution_mindset_34bi.svg"
+import Hero1 from "../images/undraw_source_code.svg"
+import Hero2 from "../images/undraw_solution_mindset.svg"
 
 function getRandomHero() {
   const idx = Math.floor(Math.random() * 2);

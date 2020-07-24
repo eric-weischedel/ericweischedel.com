@@ -1,5 +1,4 @@
 import React from "react"
-import Badges from "./badges"
 import SecondaryAction from "./secondaryAction"
 import Tags from "./tags"
 

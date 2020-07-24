@@ -3,8 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PageTitle from "../components/pageTitle"
-import ContactImage from "../images/undraw_contact_us_15o2.svg"
-import { Linkedin, Phone, Mail } from "react-feather"
+import ContactImage from "../images/undraw_contact.svg"
 import SecondaryAction from "../components/secondaryAction"
 
 const ContactPage = () => (
