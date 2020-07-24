@@ -11,7 +11,7 @@ const Footer = () => (
     <p className="paragraph">
       Site developed by Eric Weischedel using GatsbyJS.
       <br />
-      You can view the source code here.
+      You can view the source code <a href="https://github.com/eric-weischedel/ericweischedel.com">here</a>.
       <br />
       © Eric Weischedel {(new Date).getFullYear()}.
     </p>
