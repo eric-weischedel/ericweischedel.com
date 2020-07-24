@@ -11,6 +11,7 @@ import PortfolioImg from "../components/gatsbyImages/portfolioImg";
 import ClueImg from "../components/gatsbyImages/clueImg";
 import WIPImg from "../components/gatsbyImages/wipImg";
 import HomeXImg from "../components/gatsbyImages/homexImg";
+import YouTunesImg from "../components/gatsbyImages/youtunesImg";
 
 const WorkPage = () => (
   <Layout>
@@ -59,7 +60,7 @@ const WorkPage = () => (
       <WorkEntry
         title="YouTunes"
         subtitle="Course Project at Messiah University"
-        desc={["YouTunes is a full-stack music kiosk web application. Users can listen to groovy tunes, view information about the music, and add their own songs to the app's ecosystem.", "I led a small team of developers to complete the app within one semester. By helping my teammates and coordinating meetings, we were able to deliver more features than expected. Along the way, we presented and demoed our progress in front of a mock client. I increased my ability to teach myself through researching various aspects of the technologies."]}
+        desc={["YouTunes is a full-stack music kiosk web application. Users can listen to groovy tunes, view information about the music, and add their own songs to the app's ecosystem.", "I led a small team of developers to complete the app within one semester. By helping my teammates and coordinating meetings, we were able to deliver more features than expected. Along the way, we presented and demoed our progress in front of a mock client. I improved my ability to teach myself through researching various aspects of the technologies."]}
         tags={[
           "PHP", "MySQL", "HTML/CSS", "Smarty", "Scrum", "Agile"
         ]}
@@ -70,7 +71,7 @@ const WorkPage = () => (
           }
         ]}
       >
-        <WIPImg />
+        <YouTunesImg />
       </WorkEntry>
 
       <WorkEntry
