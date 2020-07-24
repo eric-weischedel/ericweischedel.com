@@ -23,7 +23,7 @@ const WorkPage = () => (
         subtitle="HomeX — Backend Developer Intern"
         desc={["HomeX is revolutionizing the home services industry with high quality software. I worked with a team of developers on a critical backend service. My primary contributions revolved around improving the release pipeline of the service, implementing continuous integration and continuous deployment (CI/CD). This increased the reliability of the service, and gave developers confidence to rapidly push changes."]}
         tags={[
-          "CircleCI", "Spinnaker", "Postman", "NodeJS", "TypeScript", "REST API", "Git", "Reliability Engineering", "Continuous Integration", "Continuous Deployment"
+          "CircleCI", "Spinnaker", "Postman", "NodeJS", "TypeScript", "REST API", "Git", "CI/CD"
         ]}
         links={[
           {
