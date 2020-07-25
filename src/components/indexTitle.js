@@ -15,13 +15,20 @@ const titles = [
 class IndexTitle extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      opacity: 1,
-      title: "Problem Solver"
-    };
-    setInterval(() => {
+
+    const interval = setInterval(() => {
       this.changeTitle()
     }, 4000);
+
+    this.state = {
+      opacity: 1,
+      title: "Problem Solver",
+      interval
+    };
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.state.interval);
   }
 
   getRandomTitle() {

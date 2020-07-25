@@ -14,7 +14,7 @@ const AboutPage = () => (
     <div className="aboutContainer">
       <div className="textPanel">
         <div className="aboutSummary">
-          <h2 className="heading">Hello World!</h2>
+          <h2 className="heading">Hello World! 👋</h2>
           <p className="paragraph">
             In 1998, I was born in <em>Lancaster, Pennsylvania,</em> where I grew up and live today.
           </p>

@@ -15,7 +15,7 @@ const IndexPage = () => (
     <div className="indexContainer">
       <div className="textPanel">
         <p className="homeText paragraph">
-          Creative developer focused on delivering clean code and reliable solutions for your system. Let's build something awesome.
+          Creative developer focused on delivering clean code and reliable solutions for your system. Let's build something awesome! 🚀
         </p>
         <div className="ctaContainer">
           <Link to="/work">
