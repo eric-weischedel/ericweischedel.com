@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import { Briefcase, Smile, MessageCircle } from "react-feather"
-import { primary } from "../styles/colors.js"
 
 const NavItem = ({ label, path }) => {
   const isActive = ({ isCurrent }) => {

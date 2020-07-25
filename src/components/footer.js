@@ -13,7 +13,7 @@ const Footer = () => (
       <br />
       You can view the source code <a href="https://github.com/eric-weischedel/ericweischedel.com">here</a>.
       <br />
-      © Eric Weischedel {(new Date).getFullYear()}.
+      © Eric Weischedel {(new Date()).getFullYear()}.
     </p>
   </footer>
 )

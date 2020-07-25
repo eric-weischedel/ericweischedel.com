@@ -5,7 +5,11 @@ const titles = [
   "Team Player",
   "Coding Ninja",
   "Hard Worker",
-  "'21 Grad"
+  "'21 Grad",
+  "Nice Guy",
+  "Coffee Drinker",
+  "The Office Fan",
+  "Foodie"
 ];
 
 class IndexTitle extends React.Component {
@@ -15,7 +19,7 @@ class IndexTitle extends React.Component {
       opacity: 1,
       title: "Problem Solver"
     };
-    const interval = setInterval(() => {
+    setInterval(() => {
       this.changeTitle()
     }, 4000);
   }
@@ -34,7 +38,7 @@ class IndexTitle extends React.Component {
 
   async changeTitle() {
     this.setState({ opacity: 0 });
-    await this.sleep(1000);
+    await this.sleep(500);
     const newTitle = this.getRandomTitle();
     this.setState({ title: newTitle });
     this.setState({ opacity: 1 })

@@ -1,7 +1,6 @@
 import React from "react"
 import SecondaryAction from "./secondaryAction"
 import Tags from "./tags"
-import Date from "./date"
 
 import { Calendar } from "react-feather"
 
@@ -25,16 +24,18 @@ const WorkEntry = ({ children, title, subtitle, img, desc, links, tags, date }) 
       <br />
       <div>
         {desc.map((paragraph) =>
-          <div><p className="paragraph">{paragraph}</p></div>
+          <div key={desc.indexOf(paragraph)}>
+            <p className="paragraph">{paragraph}</p>
+          </div>
         )}
       </div>
       <br />
       {tags &&
-        <Tags tags={tags} />
+        <Tags tags={tags}/>
       }
       {links &&
         links.map((link) =>
-          <SecondaryAction text={link.title} link={link.url} />
+          <SecondaryAction text={link.title} link={link.url} key={links.indexOf(link)}/>
         )
       }
     </div>
