@@ -30,7 +30,7 @@ const AboutPage = () => (
           <br />
           <h2 className="heading">What I'm Up To</h2>
           <p className="paragraph">
-            Currently, I am working as a Backend Developer Intern for <em>HomeX.</em> This Fall, I will begin my final year at <em>Messiah University,</em> where I will attain a Bachelor of Science in Computer Science. I am seeking job opportunities for after graduation.
+            Currently, I am working as a Backend Developer Intern for <em>HomeX.</em> This Fall, I will begin my final year at <em>Messiah University,</em> where I will achieve a Bachelor of Science in Computer Science. I am seeking job opportunities for after I graduate.
           </p>
         </div>
         <br />
