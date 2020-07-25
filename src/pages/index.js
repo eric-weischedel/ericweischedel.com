@@ -6,13 +6,7 @@ import SEO from "../components/seo"
 import IndexTitle from "../components/indexTitle"
 import { ArrowRight } from "react-feather";
 
-import Hero1 from "../images/undraw_source_code.svg"
-import Hero2 from "../images/undraw_solution_mindset.svg"
-
-function getRandomHero() {
-  const idx = Math.floor(Math.random() * 2);
-  return [Hero1, Hero2][idx]
-}
+import Hero from "../images/undraw_solution_mindset.svg"
 
 const IndexPage = () => (
   <Layout>
@@ -33,7 +27,7 @@ const IndexPage = () => (
         </div>
       </div>
       <div className="imagePanel">
-        <img src={getRandomHero()} alt=""/>
+        <img src={Hero} alt=""/>
       </div>
     </div>
   </Layout>
