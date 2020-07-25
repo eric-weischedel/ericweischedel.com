@@ -6,14 +6,25 @@
 
   .workEntryTextPanel {
     flex: 1;
+
+    .dateContainer {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .date .paragraph {
+        margin-bottom: 0;
+        margin-left: 0.5em;
+        vertical-align: middle;
+        line-height: normal;
+        font-family: 'Roboto-Regular';
+        color: #666;
+      }
+    }
   }
 
   .workEntryImageContainer {
     flex: 1;
-  }
-
-  .badges {
-    margin-top: 1em;
   }
 }
 .workEntry:nth-child(odd) {

@@ -1,13 +1,26 @@
 import React from "react"
 import SecondaryAction from "./secondaryAction"
 import Tags from "./tags"
+import Date from "./date"
 
-const WorkEntry = ({ children, title, subtitle, img, desc, links, tags }) => (
+import { Calendar } from "react-feather"
+
+const WorkEntry = ({ children, title, subtitle, img, desc, links, tags, date }) => (
   <article className="workEntry">
     <div className="workEntryTextPanel">
       <h2 className="heading">{title}</h2>
       {subtitle &&
         <h3 className="heading2">{subtitle}</h3>
+      }
+      <br />
+      <br />
+      {date &&
+        <div className="dateContainer">
+          <Calendar size={16} strokeWidth={1.5} color={"#333"} />
+          <div className="date">
+            <span className="paragraph">{date}</span>
+          </div>
+        </div>
       }
       <br />
       <div>

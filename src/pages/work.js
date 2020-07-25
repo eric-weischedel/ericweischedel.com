@@ -22,6 +22,7 @@ const WorkPage = () => (
       <WorkEntry
         title="Automated Integration Tests"
         subtitle="HomeX — Backend Developer Intern"
+        date="Summer 2020"
         desc={["HomeX is revolutionizing the home services industry with high quality software. I worked with a team of developers on a critical backend service. My primary contributions revolved around improving the release pipeline of the service, implementing continuous integration and continuous deployment (CI/CD). This increased the reliability of the service, and gave developers confidence to rapidly push changes."]}
         tags={[
           "CircleCI", "Spinnaker", "Postman", "NodeJS", "TypeScript", "REST API", "Git", "CI/CD"
@@ -39,6 +40,7 @@ const WorkPage = () => (
       <WorkEntry
         title="Email List Filter Tool"
         subtitle="Listrak — Application Developer Intern"
+        date="Summer 2019"
         desc={["Listrak is an eCommerce marketing automation platform and CRM. The platform includes a filter tool for B2B Enterprise SaaS clients to define audiences. The purpose of this project was to create an improved filter tool. I worked with a team of developers in an Agile Scrum environment."]}
         tags={[
           ".NET Framework", "C#", "SQL", "Vue.js", "JavaScript", "HTML/CSS", "Git", "Atlassian Suite", "Agile"
@@ -60,6 +62,7 @@ const WorkPage = () => (
       <WorkEntry
         title="YouTunes"
         subtitle="Course Project at Messiah University"
+        date="Fall 2018"
         desc={["YouTunes is a full-stack music kiosk web application. Users can listen to groovy tunes, view information about the music, and add their own songs to the app's ecosystem.", "I led a small team of developers to complete the app within one semester. By helping my teammates and coordinating meetings, we were able to deliver more features than expected. Along the way, we presented and demoed our progress in front of a mock client. I improved my ability to teach myself through researching various aspects of the technologies."]}
         tags={[
           "PHP", "MySQL", "HTML/CSS", "Smarty", "Scrum", "Agile"
@@ -77,6 +80,7 @@ const WorkPage = () => (
       <WorkEntry
         title="Portfolio Website"
         subtitle="Personal Project"
+        date="July 2020"
         desc={["I designed and developed this personal portfolio website to showcase my work and skills. The site is both desktop and mobile friendly, and it features four dynamic pages.", "I developed the site using Gatsby, a framework on top of ReactJS. The site is hosted on GitHub Pages."]}
         tags={[
           "GatsbyJS",
@@ -97,6 +101,7 @@ const WorkPage = () => (
       <WorkEntry
         title="ClueMeIn"
         subtitle="Personal Project"
+        date="Q1 2020"
         desc={["ClueMeIn is a React Native mobile app that improves the user's chances of winning the boardgame Clue. Its main feature is displaying the likelihood that each card in the game corresponds to the true circumstance of the murder. This feature allows the user to make better choices and ultimately conclude the circumstances of the murder faster than the opponents."]}
         tags={[
           "React Native", "Expo.io", "JavaScript"
@@ -114,6 +119,7 @@ const WorkPage = () => (
       <WorkEntry
         title="Hoodat: Remember Names"
         subtitle="Senior Project at Messiah University"
+        date="Fall 2020 to Spring 2021"
         desc={["Work in progress. To be completed by Spring 2021.", "Mobile app to help you remember names and faces by quizzing you. I am serving as the product owner and lead backend developer on an agile team of four."]}
         tags={[
           "React Native",
