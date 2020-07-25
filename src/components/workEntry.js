@@ -28,6 +28,7 @@ const WorkEntry = ({ children, title, subtitle, img, desc, links, tags, date }) 
           <div><p className="paragraph">{paragraph}</p></div>
         )}
       </div>
+      <br />
       {tags &&
         <Tags tags={tags} />
       }
