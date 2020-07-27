@@ -27,7 +27,7 @@ const ContactPage = () => (
           </div>
           <div className="mediaItem">
             <p className="heading2">LinkedIn</p>
-            <p className="paragraph"><a href="https://linkedin.com/in/eric-weischedel">in/eric-weischedel</a></p>
+            <p className="paragraph"><a href="https://linkedin.com/in/eric-weischedel" target="_blank">in/eric-weischedel</a></p>
           </div>
         </div>
         <br /><br />
