@@ -13,36 +13,43 @@ header {
   margin-top: 1.5em;
   padding-top: 1em;
   padding-bottom: 1.5em;
-}
 
-header h1 a {
-  font-family: 'Roboto-Black';
-  text-decoration: none;
-  font-size: 0.75em;
-  color: black;
-}
+  h1 {
 
-header h1 a:hover {
-  color: black
-}
+    a {
+      font-family: 'Roboto-Black';
+      text-decoration: none;
+      font-size: 0.75em;
+      color: black;
+    }
+  }
 
-header ul {
-  list-style-type: none;
-  display: flex;
-}
+  ul {
+    list-style-type: none;
+    display: flex;
+  }
 
-header li a {
-  padding: 1.5em 2em 1.5em 2em;
-  text-decoration: none;
-  font-family: 'Roboto-Black';
-  color: #666;
-  border-bottom-width: 0px;
-  border-bottom-style: solid;
-  border-bottom-color: #999;
-}
+  li {
 
-header li a:hover {
-  border-bottom-width: 3px;
+    a {
+      padding: 1.5em 2em 1.5em 2em;
+      text-decoration: none;
+      font-family: 'Roboto-Black';
+      color: #666;
+      border-bottom-width: 0px;
+      border-bottom-style: solid;
+      border-bottom-color: #999;
+    }
+
+    a:hover {
+      border-bottom-width: 3px;
+    }
+  }
+
+  .active {
+    color: $primary-color;
+    border-bottom: 3px solid $primary-color;
+  }
 }
 
 @media only screen and (max-width: 768px) {

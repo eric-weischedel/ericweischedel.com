@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 import { Briefcase, Smile, MessageCircle } from "react-feather"
 
 const NavItem = ({ label, path }) => {
-  const isActive = ({ isCurrent }) => {
-    return isCurrent ? { className: "navItem active" } : {};
+  const isActive = ({ isPartiallyCurrent }) => {
+    return isPartiallyCurrent ? { className: "navItem active" } : {};
   };
   const color = "#666666";
   var icon;

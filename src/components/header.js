@@ -2,12 +2,9 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-import { primary } from "../styles/colors.js"
-
-const activeLinkStyles = {
-  color: primary,
-  borderBottom: `3px solid ${primary}`
-}
+const isActive = ({ isPartiallyCurrent }) => {
+  return isPartiallyCurrent ? { className: 'active' } : {};
+};
 
 const Header = ({ siteTitle }) => (
   <header>
@@ -19,9 +16,9 @@ const Header = ({ siteTitle }) => (
       </Link>
     </h1>
     <ul>
-      <li><Link to="/work" activeStyle={activeLinkStyles}>Work</Link></li>
-      <li><Link to="/about" activeStyle={activeLinkStyles}>About</Link></li>
-      <li><Link to="/contact" activeStyle={activeLinkStyles}>Contact</Link></li>
+      <li><Link to="/work" getProps={isActive}>Work</Link></li>
+      <li><Link to="/about" getProps={isActive}>About</Link></li>
+      <li><Link to="/contact" getProps={isActive}>Contact</Link></li>
     </ul>
   </header>
 )
