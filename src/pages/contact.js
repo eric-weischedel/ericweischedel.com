@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PageTitle from "../components/pageTitle"
 import ContactImage from "../images/undraw_contact.svg"
-import SecondaryAction from "../components/secondaryAction"
+import InternalAction from "../components/internalAction"
 
 const ContactPage = () => (
   <Layout>
@@ -33,7 +33,7 @@ const ContactPage = () => (
         <br /><br />
         <div className="seeMore">
           <span className="promptText">Want to learn more?</span>
-          <SecondaryAction text="See About Me" link="/about" />
+          <InternalAction text="See About Me" link="/about" />
         </div>
 
       </div>

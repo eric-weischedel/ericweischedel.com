@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PageTitle from "../components/pageTitle"
-import SecondaryAction from "../components/secondaryAction"
+import InternalAction from "../components/internalAction"
 
 import EricImg from "../components/gatsbyImages/ericImg"
 
@@ -36,7 +36,7 @@ const AboutPage = () => (
         <br />
         <div className="seeMore">
           <span className="promptText">Interested in reaching out?</span>
-          <SecondaryAction text="Contact Me" link="/contact" />
+          <InternalAction text="Contact Me" link="/contact" />
         </div>
       </div>
       <div className="imagePanel">

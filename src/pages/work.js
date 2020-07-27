@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import PageTitle from "../components/pageTitle"
 import WorkEntry from "../components/workEntry"
 import SecondaryAction from "../components/secondaryAction"
+import InternalAction from "../components/internalAction"
 
 import ListrakImg from "../components/gatsbyImages/listrakImg";
 import PortfolioImg from "../components/gatsbyImages/portfolioImg";
@@ -139,7 +140,7 @@ const WorkPage = () => (
 
       <div className="seeMore">
         <span className="promptText">Want to learn more?</span>
-        <SecondaryAction text="See About Me" link="/about" />
+        <InternalAction text="See About Me" link="/about" />
       </div>
     </div>
   </Layout>
