@@ -6,7 +6,7 @@ const NavItem = ({ label, path }) => {
   const isActive = ({ isPartiallyCurrent }) => {
     return isPartiallyCurrent ? { className: "navItem active" } : {};
   };
-  const color = "#666666";
+  const color = "white";
   var icon;
   if (label === "Work") {
     icon = <Briefcase color={color} size={22} strokeWidth={2} />;

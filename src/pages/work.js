@@ -139,7 +139,7 @@ const WorkPage = () => (
       </WorkEntry>
 
       <div className="seeMore">
-        <span className="promptText">Want to learn more?</span>
+        <span className="promptText">Want to learn more?&nbsp;&nbsp;</span>
         <InternalAction text="See About Me" link="/about" />
       </div>
     </div>

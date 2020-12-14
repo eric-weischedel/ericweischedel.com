@@ -1,26 +1,25 @@
 header {
-  position: sticky;
   top: 0;
+  background-color: $secondary-color;
+  position: sticky;
+  z-index: 1000;
+}
+
+header > div {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  border-bottom: 1px solid #bbb;
-  box-shadow: 0 15px 20px -20px rgba(0, 0, 0, 0.2);
-  background-color: white;
-  z-index: 1000;
   max-width: 1440px;
   margin: 0 auto;
-  margin-top: 1.5em;
-  padding-top: 1em;
+  padding-top: 3em;
   padding-bottom: 1.5em;
 
   h1 {
-
     a {
-      font-family: 'Roboto-Black';
+      font-family: "Roboto-Black";
       text-decoration: none;
       font-size: 0.75em;
-      color: black;
+      color: white;
     }
   }
 
@@ -30,15 +29,14 @@ header {
   }
 
   li {
-
     a {
       padding: 1.5em 2em 1.5em 2em;
       text-decoration: none;
-      font-family: 'Roboto-Black';
-      color: #666;
+      font-family: "Roboto-Bold";
+      color: white;
       border-bottom-width: 0px;
       border-bottom-style: solid;
-      border-bottom-color: #999;
+      border-bottom-color: white;
     }
 
     a:hover {
@@ -57,9 +55,10 @@ header {
     position: static;
     margin-top: 0;
     padding-bottom: 1em;
-    box-shadow: none;
-    ul {
-      display: none;
+    div {
+      ul {
+        display: none;
+      }
     }
   }
 }

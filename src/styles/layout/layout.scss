@@ -1,32 +1,35 @@
 @font-face {
   font-family: Roboto-Light;
-  src: url(../fonts/Roboto/Roboto-Light.ttf)
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
 }
 @font-face {
   font-family: Roboto-Regular;
-  src: url(../fonts/Roboto/Roboto-Regular.ttf)
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
 @font-face {
   font-family: Roboto-Italic;
-  src: url(../fonts/Roboto/Roboto-Italic.ttf)
+  src: url(../fonts/Roboto/Roboto-Italic.ttf);
 }
 @font-face {
   font-family: Roboto-Medium;
-  src: url(../fonts/Roboto/Roboto-Medium.ttf)
+  src: url(../fonts/Roboto/Roboto-Medium.ttf);
 }
 @font-face {
   font-family: Roboto-Bold;
-  src: url(../fonts/Roboto/Roboto-Bold.ttf)
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
 }
 @font-face {
   font-family: Roboto-Black;
-  src: url(../fonts/Roboto/Roboto-Black.ttf)
+  src: url(../fonts/Roboto/Roboto-Black.ttf);
 }
 
-html, body, main, * {
+html,
+body,
+main,
+* {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto-Regular', Arial, sans-serif;
+  font-family: "Roboto-Regular", Arial, sans-serif;
   color: black;
   outline: none;
 }
@@ -40,9 +43,10 @@ main {
   margin: 0 auto;
 }
 
-main, header {
-  padding-left: 1.5em;
-  padding-right: 1.5em;
+main,
+header {
+  padding-left: 2.5em;
+  padding-right: 2.5em;
 }
 
 @media only screen and (max-width: 768px) {

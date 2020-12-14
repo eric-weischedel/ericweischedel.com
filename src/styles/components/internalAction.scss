@@ -1,11 +1,10 @@
-.secondaryAction {
-  margin-top: 1em;
-  display: flex;
+.internalAction {
+  display: inline-flex;
   flex-direction: row;
   text-decoration: none;
   align-items: center;
 
-  .secondaryActionText {
+  .internalActionText {
     font-size: 1.25em;
     font-family: "Roboto-Bold";
     color: $link-color;

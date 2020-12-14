@@ -35,7 +35,7 @@ const AboutPage = () => (
         </div>
         <br />
         <div className="seeMore">
-          <span className="promptText">Interested in reaching out?</span>
+          <span className="promptText">Interested in reaching out?&nbsp;&nbsp;</span>
           <InternalAction text="Contact Me" link="/contact" />
         </div>
       </div>

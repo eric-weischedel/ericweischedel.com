@@ -1,21 +1,22 @@
-@import 'vars/colors.scss';
+@import "vars/colors.scss";
 
-@import 'layout/layout.scss';
-@import 'layout/bottomNav.scss';
-@import 'layout/footer.scss';
-@import 'layout/header.scss';
-@import 'layout/navItem.scss';
+@import "layout/layout.scss";
+@import "layout/bottomNav.scss";
+@import "layout/footer.scss";
+@import "layout/header.scss";
+@import "layout/navItem.scss";
 
-@import 'pages/about.scss';
-@import 'pages/contact.scss';
-@import 'pages/index.scss';
-@import 'pages/work.scss';
-@import 'pages/404.scss';
+@import "pages/about.scss";
+@import "pages/contact.scss";
+@import "pages/index.scss";
+@import "pages/work.scss";
+@import "pages/404.scss";
 
-@import 'components/indexTitle.scss';
-@import 'components/pageTitle.scss';
-@import 'components/secondaryAction.scss';
-@import 'components/tags.scss';
-@import 'components/workEntry.scss';
+@import "components/indexTitle.scss";
+@import "components/internalAction.scss";
+@import "components/pageTitle.scss";
+@import "components/secondaryAction.scss";
+@import "components/tags.scss";
+@import "components/workEntry.scss";
 
-@import 'elements/typography.scss';
+@import "elements/typography.scss";
