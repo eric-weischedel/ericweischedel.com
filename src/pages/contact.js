@@ -9,7 +9,7 @@ import InternalAction from "../components/internalAction"
 const ContactPage = () => (
   <Layout>
     <SEO title="Contact" />
-    <PageTitle title="Contact Me" />
+    <PageTitle title="Contact Me 💬" />
     <div className="contactContainer">
       <div className="textPanel">
         <h2 className="heading">Let's Chat!</h2>
@@ -38,7 +38,7 @@ const ContactPage = () => (
 
       </div>
       <div className="imagePanel">
-        <img src={ContactImage} alt=""/>
+        <img src={ContactImage} alt="" />
       </div>
     </div>
   </Layout>

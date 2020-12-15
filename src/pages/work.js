@@ -17,8 +17,9 @@ import YouTunesImg from "../components/gatsbyImages/youtunesImg";
 const WorkPage = () => (
   <Layout>
     <SEO title="My Work" />
+    <PageTitle title="My Work 💼" />
+
     <div className="workContainer">
-      <PageTitle title="My Work" />
 
       <WorkEntry
         title="Automated Integration Tests"

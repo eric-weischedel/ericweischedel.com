@@ -3,13 +3,13 @@ header {
   background-color: $secondary-color;
   position: sticky;
   z-index: 1000;
+  padding-bottom: 3px;
 }
 
 header > div {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  max-width: 1440px;
   margin: 0 auto;
   padding-top: 3em;
   padding-bottom: 1.5em;

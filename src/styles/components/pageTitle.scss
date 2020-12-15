@@ -1,8 +1,18 @@
+.pageTitleContainer {
+  background-color: $dark-color;
+  padding-left: 4em;
+  padding-right: 4em;
+  display: flex;
+  align-items: center;
+  padding-top: 10em;
+  padding-bottom: 12em;
+  margin-bottom: 5em;
+}
+
 .pageTitle {
   font-family: 'Roboto-Black', Arial, Helvetica, sans-serif;
-  margin-top: 1em;
-  margin-bottom: 2.5em;
   font-size: 5em;
+  color: white;
 }
 
 @media only screen and (max-width: 768px) {

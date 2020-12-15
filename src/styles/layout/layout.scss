@@ -39,14 +39,12 @@ body {
 }
 
 main {
-  max-width: 1440px;
   margin: 0 auto;
 }
 
-main,
 header {
-  padding-left: 2.5em;
-  padding-right: 2.5em;
+  padding-left: 4em;
+  padding-right: 4em;
 }
 
 @media only screen and (max-width: 768px) {

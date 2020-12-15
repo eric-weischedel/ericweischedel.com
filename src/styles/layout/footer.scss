@@ -6,7 +6,7 @@ footer {
   margin-top: 6em;
   padding-top: 15em;
   padding-bottom: 15em;
-  background-color: #3F3D56;
+  background-color: $dark-color;
 
   a {
     display: flex;
@@ -38,7 +38,7 @@ footer {
       height: 6em;
       margin: 1em 0.5em 0em 0.5em;
       border-radius: 1em;
-      background-color: #292838;
+      background-color: $secondary-color;
     }
 
     a:hover {

@@ -10,7 +10,7 @@ import EricImg from "../components/gatsbyImages/ericImg"
 const AboutPage = () => (
   <Layout>
     <SEO title="About Me" />
-    <PageTitle title="About Me" />
+    <PageTitle title="About Me 😊" />
     <div className="aboutContainer">
       <div className="textPanel">
         <div className="aboutSummary">
