@@ -66,9 +66,11 @@ const WorkPage = () => (
         desc={["Mobile app to help you remember names and faces by quizzing you. I am serving as the product owner and lead backend developer on an agile team of four.", "This project is to be completed by Spring 2021 as my capstone project at Messiah University. Feel free to check out the source code on GitHub."]}
         tags={[
           "React Native",
-          "JavaScript",
+          "TypeScript",
           "NodeJS",
-          "MongoDB"
+          "MongoDB",
+          "AWS",
+          "Heroku"
         ]}
         links={[
           {
