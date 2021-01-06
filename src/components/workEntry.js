@@ -11,8 +11,6 @@ const WorkEntry = ({ children, title, subtitle, img, desc, links, tags, date }) 
       {subtitle &&
         <h3 className="heading2">{subtitle}</h3>
       }
-      <br />
-      <br />
       {date &&
         <div className="dateContainer">
           <Calendar size={16} strokeWidth={1.5} color={"#333"} />
@@ -21,6 +19,7 @@ const WorkEntry = ({ children, title, subtitle, img, desc, links, tags, date }) 
           </div>
         </div>
       }
+      <br />
       <br />
       <div>
         {desc.map((paragraph) =>
@@ -31,11 +30,11 @@ const WorkEntry = ({ children, title, subtitle, img, desc, links, tags, date }) 
       </div>
       <br />
       {tags &&
-        <Tags tags={tags}/>
+        <Tags tags={tags} />
       }
       {links &&
         links.map((link) =>
-          <SecondaryAction text={link.title} link={link.url} key={links.indexOf(link)}/>
+          <SecondaryAction text={link.title} link={link.url} key={links.indexOf(link)} />
         )
       }
     </div>

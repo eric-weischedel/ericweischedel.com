@@ -9,7 +9,6 @@ const titles = [
   "Nice Guy",
   "Coffee Drinker",
   "The Office Fan",
-  "Foodie"
 ];
 
 class IndexTitle extends React.Component {

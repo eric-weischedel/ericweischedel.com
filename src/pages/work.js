@@ -61,6 +61,27 @@ const WorkPage = () => (
       </WorkEntry>
 
       <WorkEntry
+        title="Hoodat: Remember Names"
+        subtitle="Senior Project at Messiah University"
+        date="Fall 2020 to Spring 2021"
+        desc={["Mobile app to help you remember names and faces by quizzing you. I am serving as the product owner and lead backend developer on an agile team of four.", "This project is to be completed by Spring 2021 as my capstone project at Messiah University. Feel free to check out the source code on GitHub."]}
+        tags={[
+          "React Native",
+          "JavaScript",
+          "NodeJS",
+          "MongoDB"
+        ]}
+        links={[
+          {
+            title: "View Code on GitHub",
+            url: "https://github.com/messiah-hoodat"
+          }
+        ]}
+      >
+        <WIPImg />
+      </WorkEntry>
+
+      <WorkEntry
         title="YouTunes"
         subtitle="Course Project at Messiah University"
         date="Fall 2018"
@@ -115,27 +136,6 @@ const WorkPage = () => (
         ]}
       >
         <ClueImg />
-      </WorkEntry>
-
-      <WorkEntry
-        title="Hoodat: Remember Names"
-        subtitle="Senior Project at Messiah University"
-        date="Fall 2020 to Spring 2021"
-        desc={["Work in progress. To be completed by Spring 2021.", "Mobile app to help you remember names and faces by quizzing you. I am serving as the product owner and lead backend developer on an agile team of four."]}
-        tags={[
-          "React Native",
-          "JavaScript",
-          "NodeJS",
-          "MongoDB"
-        ]}
-        links={[
-          {
-            title: "View Code on GitHub",
-            url: "https://github.com/messiah-hoodat"
-          }
-        ]}
-      >
-        <WIPImg />
       </WorkEntry>
 
       <div className="seeMore">

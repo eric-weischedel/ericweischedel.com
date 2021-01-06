@@ -25,12 +25,12 @@ const AboutPage = () => (
             After graduating high school in 2017, I decided to major in Computer Science at <em>Messiah University.</em> While there, I loved my programming classes, especially a web development class where we built a full-stack app from scratch. <b>I soon decided I would pursue a career in software engineering.</b>
           </p>
           <p className="paragraph">
-            To that end, I began working as an Application Developer Intern for <em>Listrak</em>. I had an amazing time there and learned a ton about the software industry. This past summer, I began working as a Backend Developer Intern for <em>HomeX.</em> The experience continually expands my horizons and increases my <b>passion for software engineering.</b>
+            To that end, I began working as an Application Developer Intern for <em>Listrak</em>. I had an amazing time there and learned a ton about the software industry. The following summer, I began working as a Backend Developer Intern for <em>HomeX.</em> The experience really expanded my horizons and increased my <b>passion for software engineering.</b>
           </p>
           <br />
           <h2 className="heading">What I'm Up To</h2>
           <p className="paragraph">
-            Currently, I am working as a Backend Developer Intern for <em>HomeX.</em> This Fall, I will begin my final year at <em>Messiah University,</em> where I will achieve a Bachelor of Science in Computer Science. I am seeking job opportunities for after I graduate.
+            Currently, I am studying at <em>Messiah University</em> for my last semester. I spend much of my time working on my capstone project: Hoodat, a mobile app for remembering names. In May I will achieve a Bachelor of Science in Computer Science.
           </p>
         </div>
         <br />
