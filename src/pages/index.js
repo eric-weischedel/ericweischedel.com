@@ -15,7 +15,7 @@ const IndexPage = () => (
     <div className="indexContainer">
       <div className="textPanel">
         <p className="homeText paragraph">
-          Creative developer focused on delivering clean code and reliable solutions for your system. Let's build something awesome! 🚀
+          Creative developer focused on delivering clean code and reliable solutions for your system. Let's build something awesome! <span role="img" aria-label="rocket emoji">🚀</span>
         </p>
         <div className="ctaContainer">
           <Link to="/work">
@@ -27,7 +27,7 @@ const IndexPage = () => (
         </div>
       </div>
       <div className="imagePanel">
-        <img src={Hero} alt=""/>
+        <img src={Hero} alt="" />
       </div>
     </div>
   </Layout>

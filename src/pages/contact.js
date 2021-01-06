@@ -27,7 +27,7 @@ const ContactPage = () => (
           </div>
           <div className="mediaItem">
             <p className="heading2">LinkedIn</p>
-            <p className="paragraph"><a href="https://linkedin.com/in/eric-weischedel" target="_blank">in/eric-weischedel</a></p>
+            <p className="paragraph"><a href="https://linkedin.com/in/eric-weischedel" target="_blank" rel="noreferrer">in/eric-weischedel</a></p>
           </div>
         </div>
         <br /><br />
@@ -38,7 +38,7 @@ const ContactPage = () => (
 
       </div>
       <div className="imagePanel">
-        <img src={ContactImage} alt=""/>
+        <img src={ContactImage} alt="" />
       </div>
     </div>
   </Layout>
