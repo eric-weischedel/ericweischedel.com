@@ -4,7 +4,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PageTitle from "../components/pageTitle"
 import WorkEntry from "../components/workEntry"
-import SecondaryAction from "../components/secondaryAction"
 import InternalAction from "../components/internalAction"
 
 import ListrakImg from "../components/gatsbyImages/listrakImg";
