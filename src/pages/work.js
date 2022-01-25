@@ -63,7 +63,7 @@ const WorkPage = () => (
         title="Hoodat: Remember Names"
         subtitle="Senior Project at Messiah University"
         date="Fall 2020 to Spring 2021"
-        desc={["Mobile app to help you remember names and faces by quizzing you. I am serving as the product owner and lead backend developer on an agile team of four.", "This project is to be completed by Spring 2021 as my capstone project at Messiah University. Feel free to check out the source code on GitHub."]}
+        desc={["Mobile app to help you remember names and faces by quizzing you. I served as the product owner and lead backend developer on an agile team of four.", "This project was completed in May of 2021 as my capstone project at Messiah University. Feel free to check out the source code on GitHub."]}
         tags={[
           "React Native",
           "TypeScript",
