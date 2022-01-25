@@ -9,10 +9,6 @@ const Footer = () => (
       <li><a href="mailto:yshuttle@gmail.com"><Mail color="#fff" size={22} strokeWidth={2} /><span>Email</span></a></li>
     </ul>
     <p className="paragraph">
-      Site developed by Eric Weischedel using GatsbyJS.
-      <br />
-      You can view the source code <a href="https://github.com/eric-weischedel/ericweischedel.com" target="_blank" rel="noreferrer">here</a>.
-      <br />
       © Eric Weischedel {(new Date()).getFullYear()}.
     </p>
   </footer>
