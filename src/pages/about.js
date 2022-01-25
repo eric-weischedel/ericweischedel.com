@@ -33,7 +33,7 @@ const AboutPage = () => (
           <br />
           <h2 className="heading">What I'm Up To</h2>
           <p className="paragraph">
-            Currently, I'm working as a software engineer for <a href="https://homex.com/">HomeX</a> in Lancaster, Pennsylvania.
+            Currently, I'm working as a software engineer for <a href="https://homex.com/" target="_blank" rel="noreferrer">HomeX</a> in Lancaster, Pennsylvania.
           </p>
         </div>
         <br />
