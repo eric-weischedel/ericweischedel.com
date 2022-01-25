@@ -3,11 +3,15 @@ import React from "react"
 const titles = [
   "Problem Solver",
   "Team Player",
-  "Coding Ninja",
+  // "Coding Ninja",
   "Hard Worker",
   "'21 Grad",
   "Nice Guy",
-  "Coffee Drinker",
+  // "Coffee Drinker",
+  "Tea Drinker",
+  "Yogi",
+  "Spartan Racer",
+  // "Foodie",
   "The Office Fan",
 ];
 

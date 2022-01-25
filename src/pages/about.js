@@ -27,10 +27,13 @@ const AboutPage = () => (
           <p className="paragraph">
             To that end, I began working as an Application Developer Intern for <em>Listrak</em>. I had an amazing time there and learned a ton about the software industry. The following summer, I began working as a Backend Developer Intern for <em>HomeX.</em> The experience really expanded my horizons and increased my <b>passion for software engineering.</b>
           </p>
+          <p className="paragraph">
+            In May of 2021, I completed my final semester at Messiah University. I delivered my capstone project: Hoodat, a mobile app for remembering names, and I achieved my Bachelor of Science in Computer Science. After graduation I returned to HomeX to work as a full-time software engineer.
+          </p>
           <br />
           <h2 className="heading">What I'm Up To</h2>
           <p className="paragraph">
-            Currently, I am studying at <em>Messiah University</em> for my last semester. I spend much of my time working on my capstone project: Hoodat, a mobile app for remembering names. In May I will achieve a Bachelor of Science in Computer Science.
+            Currently, I'm working as a software engineer for <a href="https://homex.com/">HomeX</a> in Lancaster, Pennsylvania.
           </p>
         </div>
         <br />
