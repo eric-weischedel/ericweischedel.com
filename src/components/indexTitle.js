@@ -13,33 +13,34 @@ const titles = [
   "Spartan Racer",
   // "Foodie",
   "The Office Fan",
-];
+  "Disc Golf Enthusiast",
+]
 
 class IndexTitle extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
 
     const interval = setInterval(() => {
       this.changeTitle()
-    }, 4000);
+    }, 4000)
 
     this.state = {
       opacity: 1,
       title: "Problem Solver",
-      interval
-    };
+      interval,
+    }
   }
 
   componentWillUnmount() {
-    clearInterval(this.state.interval);
+    clearInterval(this.state.interval)
   }
 
   getRandomTitle() {
-    var newTitle = this.state.title;
+    var newTitle = this.state.title
     while (newTitle === this.state.title) {
-      newTitle = titles[Math.floor(Math.random() * (titles.length))];
+      newTitle = titles[Math.floor(Math.random() * titles.length)]
     }
-    return newTitle;
+    return newTitle
   }
 
   sleep(ms) {
@@ -47,10 +48,10 @@ class IndexTitle extends React.Component {
   }
 
   async changeTitle() {
-    this.setState({ opacity: 0 });
-    await this.sleep(500);
-    const newTitle = this.getRandomTitle();
-    this.setState({ title: newTitle });
+    this.setState({ opacity: 0 })
+    await this.sleep(500)
+    const newTitle = this.getRandomTitle()
+    this.setState({ title: newTitle })
     this.setState({ opacity: 1 })
   }
 
@@ -58,7 +59,8 @@ class IndexTitle extends React.Component {
     return (
       <h1 className="title">
         Software Engineer
-        <br />& <span style={{ opacity: this.state.opacity }}>{this.state.title}</span>
+        <br />&{" "}
+        <span style={{ opacity: this.state.opacity }}>{this.state.title}</span>
       </h1>
     )
   }

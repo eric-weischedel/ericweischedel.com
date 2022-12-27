@@ -58,13 +58,20 @@ const AboutPage = () => (
             engineer. I built the HomeX platform services for about one year. In
             2022, I switched teams to work on Schedule Engine, a home service
             booking platform. Later that year, Schedule Engine was acquired by
-            ServiceTitan, and I continued to develop Schedule Engine.
+            <em>ServiceTitan</em>, and I continued to develop Schedule Engine.
           </p>
           <br />
           <h2 className="heading">What I'm Up To</h2>
           <p className="paragraph">
-            Currently, I'm developing the Schedule Engine dashboard as a
-            Software Engineer for ServiceTitan in Lancaster, Pennsylvania.
+            Currently, I'm developing the{" "}
+            <a href="https://www.scheduleengine.com/" target="_blank">
+              Schedule Engine
+            </a>{" "}
+            dashboard as a Software Engineer for{" "}
+            <a href="https://www.servicetitan.com/" target="_blank">
+              ServiceTitan
+            </a>{" "}
+            in <em>Lancaster, Pennsylvania.</em>
           </p>
         </div>
         <br />

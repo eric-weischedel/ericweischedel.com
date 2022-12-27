@@ -18,7 +18,7 @@
         margin-left: 0.65em;
         vertical-align: middle;
         line-height: normal;
-        font-family: 'Roboto-Regular';
+        font-family: "Roboto-Regular";
         color: #333;
       }
     }
@@ -28,20 +28,23 @@
     flex: 1;
   }
 }
+
+.fullWidthImageContainer {
+  margin-bottom: 3em;
+}
+
 .workEntry:nth-child(odd) {
   flex-direction: row-reverse;
 
-  .workEntryTextPanel {
-    padding-left: 4em;
-  }
-}
-.workEntry:nth-child(even) {
-  .workEntryTextPanel {
+  .workEntryImageContainer {
     padding-right: 4em;
   }
 }
-
-
+.workEntry:nth-child(even) {
+  .workEntryImageContainer {
+    padding-left: 4em;
+  }
+}
 
 @media only screen and (max-width: 768px) {
   .workEntry {
