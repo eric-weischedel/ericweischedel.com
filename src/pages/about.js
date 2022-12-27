@@ -64,11 +64,19 @@ const AboutPage = () => (
           <h2 className="heading">What I'm Up To</h2>
           <p className="paragraph">
             Currently, I'm developing the{" "}
-            <a href="https://www.scheduleengine.com/" target="_blank">
+            <a
+              href="https://www.scheduleengine.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Schedule Engine
             </a>{" "}
             dashboard as a Software Engineer for{" "}
-            <a href="https://www.servicetitan.com/" target="_blank">
+            <a
+              href="https://www.servicetitan.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               ServiceTitan
             </a>{" "}
             in <em>Lancaster, Pennsylvania.</em>

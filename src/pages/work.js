@@ -12,7 +12,6 @@ import ClueImg from "../components/gatsbyImages/clueImg"
 import WIPImg from "../components/gatsbyImages/wipImg"
 import HomeXImg from "../components/gatsbyImages/homexImg"
 import YouTunesImg from "../components/gatsbyImages/youtunesImg"
-import ScheduleEngineImg from "../components/gatsbyImages/scheduleEngineImg"
 import SESettingsImg from "../components/gatsbyImages/scheduleEngineSettings"
 
 const WorkPage = () => (
